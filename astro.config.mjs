@@ -4,11 +4,13 @@ import starlight from "@astrojs/starlight";
 // Algolia DocSearch will be added after approval
 // import docsearch from "@astrojs/starlight-docsearch";
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const SITE_URL = process.env.CNAME
   ? `https://${process.env.CNAME}`
   : "https://wpcraft-ru.github.io/wp-kb";
 
-const BASE = process.env.CNAME ? "/" : "/wp-kb";
+const BASE = process.env.CNAME ? "/" : (isProd ? "/wp-kb" : "/");
 
 export default defineConfig({
   site: SITE_URL,
