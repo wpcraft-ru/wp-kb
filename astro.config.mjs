@@ -32,9 +32,14 @@ export default defineConfig({
 
       sidebar: [
         {
-          label: "Ядро WordPress",
+          label: "Контент",
           collapsed: false,
-          autogenerate: { directory: "core" },
+          autogenerate: { directory: "content" },
+        },
+        {
+          label: "Админка",
+          collapsed: true,
+          autogenerate: { directory: "console" },
         },
         {
           label: "Плагины",
@@ -60,11 +65,6 @@ export default defineConfig({
           label: "Сниппеты",
           collapsed: true,
           autogenerate: { directory: "snippets" },
-        },
-        {
-          label: "Запросы",
-          collapsed: true,
-          autogenerate: { directory: "queries" },
         },
       ],
 

@@ -1,0 +1,63 @@
+---
+title: "Настройка WordPress: домен, хостинг, установка"
+description: "Пошаговая схема запуска нового WordPress-сайта: выбор домена, хостинга, установка и первичная проверка."
+---
+
+# Настройка WordPress: домен, хостинг, установка
+
+## Базовый сценарий
+
+1. Зарегистрировать домен.
+2. Выбрать WordPress-совместимый хостинг.
+3. Установить WordPress (автоинсталлятор или ручной путь).
+4. Проверить вход в `wp-admin`.
+5. Выполнить первичную настройку (`site title`, timezone, permalink, users).
+
+## Критичные решения на старте
+
+- Где хостится сайт: managed WordPress или универсальный VPS/shared.
+- Кто владеет доступами к домену и DNS.
+- Как строится backup-policy и восстановление.
+
+## PHP пример: принудительный HTTPS для фронтенда
+
+```php
+add_action('template_redirect', function () {
+    if (is_admin() || wp_doing_ajax()) {
+        return;
+    }
+
+    if (!is_ssl()) {
+        wp_safe_redirect('https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], 301);
+        exit;
+    }
+});
+```
+
+Что делает код:
+- Перенаправляет фронтенд-трафик на HTTPS.
+- Не ломает админку и ajax-запросы.
+
+## JS пример: проверка доступности базовых страниц после деплоя
+
+```js
+const mustHavePaths = ['/about/', '/contact/'];
+
+Promise.all(
+  mustHavePaths.map((path) => fetch(path, { method: 'HEAD' }))
+).then((responses) => {
+  responses.forEach((res, index) => {
+    console.log(mustHavePaths[index], res.status);
+  });
+});
+```
+
+Что делает код:
+- Дает простой smoke-check после первичного запуска.
+- Быстро выявляет отсутствующие страницы/редиректы.
+
+## Связанные страницы
+
+- [Getting Started with WordPress: структурный конспект](./getting-started-with-wordpress-guide/)
+- [WordPress 101: базовая карта терминов и действий](./wordpress-101-guide/)
+- [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics/)
