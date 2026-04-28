@@ -8,9 +8,9 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const SITE_URL = process.env.CNAME
   ? `https://${process.env.CNAME}`
-  : "https://wpcraft-ru.github.io/wp-kb";
+  : "https://wpcraft-ru.github.io/kb-wordpress";
 
-const BASE = process.env.CNAME ? "/" : (isProd ? "/wp-kb" : "/");
+const BASE = process.env.CNAME ? "/" : (isProd ? "/kb-wordpress" : "/");
 
 export default defineConfig({
   site: SITE_URL,
@@ -28,7 +28,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/wpcraft-ru/wp-kb",
+          href: "https://github.com/wpcraft-ru/kb-wordpress",
         },
       ],
 

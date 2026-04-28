@@ -3,7 +3,7 @@
 База знаний по WordPress на основе официальных источников с модерацией от опытных специалистов.
 
 ## Стек
-- **Repo:** https://github.com/wpcraft-ru/wp-kb
+- **Repo:** https://github.com/wpcraft-ru/kb-wordpress
 - **SSG:** Astro + Starlight
 - **Хостинг:** GitHub Pages
 - **Поиск:** Pagefind (локальный) → Algolia DocSearch (после одобрения)
