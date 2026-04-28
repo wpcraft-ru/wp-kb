@@ -8,7 +8,7 @@ const SITE_URL = process.env.CNAME
   ? `https://${process.env.CNAME}`
   : "https://wpcraft-ru.github.io/wp-kb";
 
-const BASE = process.env.CNAME ? "/" : "/wp-kb/";
+const BASE = process.env.CNAME ? "/" : "/wp-kb";
 
 export default defineConfig({
   site: SITE_URL,
