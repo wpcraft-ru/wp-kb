@@ -1,9 +1,9 @@
 ---
-title: "Index"
-description: "Каталог всех страниц базы знаний WordPress"
+title: "База знаний по WordPress от wpcraft.ru"
+description: "База знаний по WordPress на русском: установка, админка, контент, темы, плагины, безопасность, производительность и практические сниппеты."
 ---
 
-# WP Knowledge — Index
+# Разделы базы знаний по WordPress
 
 ## Основы WordPress
 

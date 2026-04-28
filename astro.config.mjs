@@ -18,8 +18,8 @@ export default defineConfig({
 
   integrations: [
     starlight({
-      title: "WP KB",
-      description: "База знаний по WordPress",
+      title: "База знаний WordPress",
+      description: "Практическая база знаний по WordPress: установка, админка, темы, плагины, безопасность, производительность и готовые сниппеты на русском.",
       locales: {
         root: { label: "Русский", lang: "ru" },
       },
