@@ -108,6 +108,48 @@ When asked to lint the wiki:
 3. **Report findings** with specific file paths and suggested fixes
 4. **Append to `log.md`**: `## [YYYY-MM-DD] lint | N issues found`
 
+### Update
+
+When asked to update existing wiki content:
+
+1. **Identify affected pages** from new information or lint findings
+2. **Propose changes with source attribution** before writing (what changes and why)
+3. **Apply updates** to target pages and related linked pages if consistency requires it
+4. **Update `src/content/docs/index.md`** if page summary meaning changed
+5. **Append to `src/content/docs/log.md`**: `## [YYYY-MM-DD] update | Topic`
+
+## Skills (Workspace)
+
+These skills are available in this repository under `.agents/skills/`:
+
+- `llm-wiki` — umbrella/orchestrator for full LLM Wiki workflow in this repo
+- `wiki-init` — bootstrap/repair wiki structure and conventions
+- `wiki-ingest` — ingest source into pages + cross-links + index/log updates
+- `wiki-query` — answer strictly from wiki pages, optionally file to `queries/`
+- `wiki-lint` — run health audit (contradictions, links, orphans, stale sections)
+- `wiki-update` — revise existing pages with source-backed updates and consistency sweep
+
+### Skill Routing
+
+Use this mapping for task routing:
+
+- "initialize/fix wiki structure" → `wiki-init`
+- "ingest article/source" → `wiki-ingest`
+- "answer from wiki" → `wiki-query`
+- "lint wiki" → `wiki-lint`
+- "apply new facts/fix outdated pages" → `wiki-update`
+- "run end-to-end wiki maintenance" → `llm-wiki` (then route internally)
+
+### Shared Skill Invariants
+
+All wiki skills must enforce:
+
+1. Read `src/content/docs/index.md` before query/update work
+2. Never modify `raw/` documents
+3. Keep `index.md` and `log.md` synchronized with operations
+4. Maintain bidirectional cross-references where relevant
+5. Keep wiki content in ru-RU and include required frontmatter (`title`, `description`)
+
 ## General Rules
 
 - **Language**: All wiki content in Russian (ru-RU)
