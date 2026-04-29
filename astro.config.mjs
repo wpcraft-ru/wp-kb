@@ -48,7 +48,7 @@ export default defineConfig({
 
       sidebar: [
         {
-          label: "Основы WordPress",
+          label: "Основы",
           collapsed: false,
           autogenerate: { directory: "basics" },
         },
@@ -58,7 +58,7 @@ export default defineConfig({
           autogenerate: { directory: "content" },
         },
         {
-          label: "Админка",
+          label: "Консоль",
           collapsed: true,
           autogenerate: { directory: "console" },
         },
