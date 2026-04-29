@@ -24,7 +24,7 @@ export default defineConfig({
         root: { label: "Русский", lang: "ru" },
       },
       editLink: {
-        baseUrl: 'https://github.com/wpcraft-ru/kb-wordpress/tree/main/src/content/docs',
+        baseUrl: 'https://github.com/wpcraft-ru/kb-wordpress/tree/main',
       },
       social: [
         {
