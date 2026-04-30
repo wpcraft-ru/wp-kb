@@ -3,8 +3,6 @@ title: "Getting Started with WordPress: структурный конспект"
 description: "Конспект книги Getting Started with WordPress: запуск сайта, панель управления, контент, плагины, темы и базовая безопасность."
 ---
 
-# Getting Started with WordPress: структурный конспект
-
 Источник: `raw/Getting-Started-with-WordPress-260427.pdf`
 
 ## Что покрывает книга

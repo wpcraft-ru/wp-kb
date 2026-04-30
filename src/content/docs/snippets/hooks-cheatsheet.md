@@ -3,8 +3,6 @@ title: "Хуки WordPress: шпаргалка"
 description: "Топ actions и filters WordPress с короткими примерами: wp_head, init, save_post, the_content, wp_mail и другие."
 ---
 
-# Хуки WordPress: шпаргалка
-
 Хуки — основной механизм расширения WordPress.
 
 | Тип | Функция | Назначение |

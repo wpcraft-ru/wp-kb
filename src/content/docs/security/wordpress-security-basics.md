@@ -3,8 +3,6 @@ title: "Базовая безопасность WordPress для нового с
 description: "Минимальный security baseline: обновления, пароли, роли, backup и мониторинг для WordPress-проекта на старте."
 ---
 
-# Базовая безопасность WordPress для нового сайта
-
 ## Security baseline
 
 1. Включить регулярные обновления core/plugins/themes.

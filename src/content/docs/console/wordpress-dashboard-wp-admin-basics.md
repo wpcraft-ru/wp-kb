@@ -3,8 +3,6 @@ title: "Панель управления WordPress (`wp-admin`): базовая
 description: "Краткий обзор Admin Menu, Toolbar и ключевых экранов `wp-admin` для ежедневной работы контент-команды."
 ---
 
-# Панель управления WordPress (`wp-admin`): базовая навигация
-
 ## Что важно освоить в первую очередь
 
 - Admin Menu: Posts, Pages, Appearance, Plugins, Users, Settings.
