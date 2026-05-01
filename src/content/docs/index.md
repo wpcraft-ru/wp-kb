@@ -63,3 +63,5 @@ description: "База знаний по WordPress на русском: уста
 - [Шаблон: Договор оказания услуг (общий)](./legal/templates/contract-services.md) — Универсальный договор с оформлением услуг через ТЗ. Внутри: сам договор + 3 шаблона ТЗ (на задачу, на диагностику, на разработку).
 
 ## Запросы (Query Results)
+
+TBD `.agents/skills/wiki-query/SKILL.md`
