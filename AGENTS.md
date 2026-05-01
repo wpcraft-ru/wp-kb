@@ -7,8 +7,9 @@ LLM Wiki schema for the WordPress knowledge base.
 ```
 wp-knowledge/
 ├── raw/                       # Immutable source documents — READ ONLY
-│   ├── articles/              # Saved articles, blog posts
-│   └── assets/                # Screenshots, images
+│   └── YYYY/                  # Year (e.g. 2026)
+│       └── MMDD/              # Month + Day (e.g. 0501 = May 1)
+│           └── file.{md,pdf}  # Source files
 ├── src/content/docs/          # ★ WIKI PAGES — you write and maintain these
 │   ├── index.md               # Catalog of all pages (update on every ingest)
 │   ├── log.md                 # Chronological operations log (append on every operation)

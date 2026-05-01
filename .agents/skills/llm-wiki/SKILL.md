@@ -16,10 +16,28 @@ This setup follows:
 ## Repository Scope
 
 Wiki root in this repo:
-- Sources: `raw/` (immutable)
+- Sources: `raw/YYYY/MMDD/file.{md,pdf}` (immutable, date-organized)
 - Pages: `src/content/docs/`
 - Catalog: `src/content/docs/index.md`
 - Log: `src/content/docs/log.md`
+
+### Raw Structure
+
+Sources are organized by ingestion date:
+
+```
+raw/
+  2026/
+    0501/          # May 1, 2026
+      article.md
+    0427/          # April 27, 2026
+      source.pdf
+```
+
+- Top level: `YYYY` (year)
+- Second level: `MMDD` (month + day, zero-padded)
+- Files: original filenames preserved
+- Never modify files under `raw/`
 
 ## Routing Rules
 

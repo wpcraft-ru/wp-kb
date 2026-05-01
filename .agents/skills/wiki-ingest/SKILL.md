@@ -11,7 +11,10 @@ Compile a new source into the persistent wiki.
 
 1. Read `src/content/docs/index.md` first.
 2. Read related existing pages before writing.
-3. Confirm source location (`raw/` path or URL).
+3. Confirm source location:
+   - **Local:** `raw/YYYY/MMDD/filename.{md,pdf}` — date-organized, immutable
+   - **URL:** external source to fetch and save to `raw/` under today's date folder
+4. If source is a URL, save it to `raw/YYYY/MMDD/` first (using current date), then ingest from that local copy.
 
 ## Process
 
