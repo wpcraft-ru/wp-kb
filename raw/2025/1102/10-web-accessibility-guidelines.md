@@ -1,5 +1,5 @@
-WordPress showcase for designers | Learn WordPress
-[Home](https://learn.wordpress.org)[Courses](https://learn.wordpress.org/courses/)[Beginner WordPress Designer](https://learn.wordpress.org/course/beginner-wordpress-designer/)WordPress showcase for designers
+Web accessibility guidelines to create inclusive websites | Learn WordPress
+[Home](https://learn.wordpress.org)[Courses](https://learn.wordpress.org/courses/)[Beginner WordPress Designer](https://learn.wordpress.org/course/beginner-wordpress-designer/)Web accessibility guidelines to create inclusive websites
 [Exit Course](https://learn.wordpress.org/course/beginner-wordpress-designer/)
 1. ### Introduction to designing with WordPress
 1. [WordPress showcase for designers](https://learn.wordpress.org/lesson/wordpress-showcase-for-designers/)
@@ -61,22 +61,21 @@ WordPress showcase for designers | Learn WordPress
 4. [Using a plugin to create a carousel slider](https://learn.wordpress.org/lesson/using-a-plugin-to-create-a-carousel-slider/)
 [Preview](https://learn.wordpress.org/lesson/using-a-plugin-to-create-a-carousel-slider/)
 4 lessons
-### Introduction to designing with WordPress
-# WordPress showcase for designers
-## Transcript
+### Web design best practices
+# Web accessibility guidelines to create inclusive websites
 ### Introduction
-Welcome to a quick WordPress showcase for designers. WordPress is an ideal platform for creative freedom. Whether you’re an experienced designer or just starting, WordPress gives you the tools to bring your ideas to life.
-### WordPress tools
-With its powerful Block Editor, extensive pattern libraries, and Site Editor capabilities, WordPress empowers you to design beautiful websites without writing any code. The Site Editor lets you design every aspect of your site with blocks. From header to footer. Global styles help you to define consistent design across the site. Set in colors, layouts, and fonts to ensure a cohesive look. You can easily upload web fonts from Google Fonts or any other type foundry. The intuitive Style Book lets you control the appearance of individual blocks, including headings and interactive elements like buttons. You can create websites that showcase unique style and vision from custom layouts to intricate typography and dynamic media. Use reusable sections or patterns to easily apply design elements across different areas of a site.
-### Plugins and blocks
-Extend your site’s functionality with plugins. You can, for example, use plugins to add a form to your site, advanced galleries or even sliders. You can also create a unique design such as this using the Grid block. Or opt for a clean, modern design that prioritizes an intuitive and accessible user experience. The Cover block also allows one to display images with overlay text. It’s commonly used for headers, banners, or section dividers, allowing you to add a combination of media and content with customizable styling. The Query Loop block enables powerful content segmentation and sophisticated layouts for news sites, magazines, and content-heavy blocks.
-### Conclusion
-WordPress allows you to leverage a variety of blocks when crafting innovative designs and expressing your creative skills. Start designing with the open-source platform that powers more than 40% of the web.
-## WordPress Playground
-Start exploring WordPress in one click. WordPress Playground is the platform that lets you run WordPress instantly. It’s your place to build, experiment, test, and grow.
+Web accessibility guidelines to create inclusive websites. In this lesson we will discuss creating websites that everyone can use and enjoy, regardless of their abilities. Let’s start with the basics. Web accessibility is designing websites that work for everyone, including those with visual, auditory, motor, or cognitive impairments. But when we design for accessibility we’re actually improving the experience for all users. You’re not only doing the right thing but also boosting your site’s SEO and overall usability. Plus, in many countries, it is a legal requirement.
+### WordPress & Accessibility
+WordPress has been making great strides in accessibility. Many themes and plugins are working towards being accessible, and the platform itself aims to meet the Web Content Accessibility Guidelines 2.2 at level AA. As designers we can take these features and elevate them. So how do we do that?
+### Key principles
+Let’s break it down into some key principles. First up is color contrast. You want to make sure there’s enough contrast between your text and background colors. A nifty tool called WebAIM Contrast Checker can help you with this. Next typography. Choose fonts that are easy to read, and aim for at least 16 pixels as your base size. Please note this is merely a best practice guideline. Use a minimum line height of 1.5 for optimal readability, avoid all caps and small caps, and reserve underlining exclusively for links. Also fully justified text should not be used. By default, WordPress doesn’t allow justified text as it can reduce accessibility due to irregular spacing, which makes it harder to read. Now on to structure and layout. Think of your website as a well-organized book. You want a clear, consistent layout with a logical reading order. Use proper heading hierarchy, as it’s like creating a table of contents for your site. Navigation is another crucial part of your site. Design your menus so they’re easy to use with both a mouse and a keyboard. And don’t forget about forms. Label everything clearly. Every form input should have a corresponding label adequately associated with the field, and all form elements should be operable on the keyboard. Buttons should also have meaningful text that describes their action. Lastly always include descriptive alt text for images. Alt text or alternative text is a brief description of an image used to improve accessibility and help search engines understand the image.
+Furthermore, video captions and audio transcripts should always be provided. All these steps help to give your visual content a voice.
+### WordPress-specific tips
+Now, let’s get into some WordPress-specific tips. When choosing a theme, look for one labeled Accessibility Ready in the WordPress Repository. It will help you to get a head start on accessibility. Next, what about testing plugins? Certain types of WordPress plugins can cause accessibility issues if they aren’t designed with best practices in mind. A good approach is checking the plugin’s usability without a mouse relying on keyboard navigation alone. Additionally you can use tools like WebAIMS WAVE to inspect the plugin for accessibility issues. There are also some great accessibility plugins out there that offer tools to check and improve the accessibility of your content. In the next lesson we will explore this further. Testing is crucial. Think of it like proofreading but for inclusivity. Always complete an accessibility audit as you are designing your website. Don’t leave it as an afterthought. Remember, designing for accessibility is an ongoing process. By prioritizing accessibility in your WordPress designs, you’re not just following best practices. You’re creating a more inclusive web for everyone.
+Take Quiz
 This is a preview lesson
 Register or sign in to take this lesson.
 [Take course](https://learn.wordpress.org/course/beginner-wordpress-designer/)
-[Sign in](https://login.wordpress.org/?redirect_to=https%3A%2F%2Flearn.wordpress.org%2Flesson%2Fwordpress-showcase-for-designers%2F&locale=en_US)
+[Sign in](https://login.wordpress.org/?redirect_to=https%3A%2F%2Flearn.wordpress.org%2Flesson%2Fweb-accessibility-guidelines-to-create-inclusive-websites%2F&locale=en_US)
 ## Suggestions
 Found a typo, grammar error or outdated screenshot? [Contact us](https://learn.wordpress.org/report-content-feedback/).

@@ -70,6 +70,8 @@ add_filter('body_class', function ($classes) {
 - [Выбор и настройка темы](./choose-and-setup-theme/)
 - [Меню в WordPress](../content/menus/)
 - [Кастомный CSS в WordPress](./custom-css/)
+- [Доступность (a11y) в WordPress](../design/accessibility/)
+- [Дизайн в WordPress: полное руководство](../design/)
 
 ## Материалы и источники
 

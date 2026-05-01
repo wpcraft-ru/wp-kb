@@ -1,5 +1,5 @@
-WordPress showcase for designers | Learn WordPress
-[Home](https://learn.wordpress.org)[Courses](https://learn.wordpress.org/courses/)[Beginner WordPress Designer](https://learn.wordpress.org/course/beginner-wordpress-designer/)WordPress showcase for designers
+Customizing theme settings: Colors, fonts, typography and layout | Learn WordPress
+[Home](https://learn.wordpress.org)[Courses](https://learn.wordpress.org/courses/)[Beginner WordPress Designer](https://learn.wordpress.org/course/beginner-wordpress-designer/)Customizing theme settings: Colors, fonts, typography and layout
 [Exit Course](https://learn.wordpress.org/course/beginner-wordpress-designer/)
 1. ### Introduction to designing with WordPress
 1. [WordPress showcase for designers](https://learn.wordpress.org/lesson/wordpress-showcase-for-designers/)
@@ -61,22 +61,41 @@ WordPress showcase for designers | Learn WordPress
 4. [Using a plugin to create a carousel slider](https://learn.wordpress.org/lesson/using-a-plugin-to-create-a-carousel-slider/)
 [Preview](https://learn.wordpress.org/lesson/using-a-plugin-to-create-a-carousel-slider/)
 4 lessons
-### Introduction to designing with WordPress
-# WordPress showcase for designers
+### Customizing themes and templates
+# Customizing theme settings: Colors, fonts, typography and layout
 ## Transcript
 ### Introduction
-Welcome to a quick WordPress showcase for designers. WordPress is an ideal platform for creative freedom. Whether you’re an experienced designer or just starting, WordPress gives you the tools to bring your ideas to life.
-### WordPress tools
-With its powerful Block Editor, extensive pattern libraries, and Site Editor capabilities, WordPress empowers you to design beautiful websites without writing any code. The Site Editor lets you design every aspect of your site with blocks. From header to footer. Global styles help you to define consistent design across the site. Set in colors, layouts, and fonts to ensure a cohesive look. You can easily upload web fonts from Google Fonts or any other type foundry. The intuitive Style Book lets you control the appearance of individual blocks, including headings and interactive elements like buttons. You can create websites that showcase unique style and vision from custom layouts to intricate typography and dynamic media. Use reusable sections or patterns to easily apply design elements across different areas of a site.
-### Plugins and blocks
-Extend your site’s functionality with plugins. You can, for example, use plugins to add a form to your site, advanced galleries or even sliders. You can also create a unique design such as this using the Grid block. Or opt for a clean, modern design that prioritizes an intuitive and accessible user experience. The Cover block also allows one to display images with overlay text. It’s commonly used for headers, banners, or section dividers, allowing you to add a combination of media and content with customizable styling. The Query Loop block enables powerful content segmentation and sophisticated layouts for news sites, magazines, and content-heavy blocks.
+In this lesson, we will take a closer look at customizing your theme settings. When using a block theme, you can customize colors, fonts, typography, and layouts for your entire site using Styles. These features allow you to modify your site’s appearance without any code. This interface was created to help users and designers change the style of their site without having to edit individual blocks or pages.
+### Global Styles
+To access Styles, go to Appearance, click Editor, and then select Styles. Your theme may provide you with style variations that allow you to update the style of your theme in one click. One of the variations you choose might be close to your design goal, but you will, of course, be able to customize this further. When you click on the pencil icon or Edit Styles, the Styles panel will open up on the right of the page. The Styles panel offers several customization options and is where you can define your design and apply globally to any changes. Let’s start with Typography. Here, you can manage fonts, install Google fonts, or upload a font from your computer. And below Elements, we can customize the text, links, headings, captions and buttons. When we select Text, for example, we will notice we can update the font, size, appearance, line height, and letter spacing. And please take note, when you return and make your way to Headings, you will see that you can customize individual heading levels separately, giving you precise control. When you scroll to the bottom and select Font Size Presets, you will be able to create and edit the presets used for font sizes across your site.
+Now, let’s return to Styles and look at colors. In this section, you can select one of the color palettes that come with your theme, create a custom color palette, and then of course you can change the color for your text, your background, and other elements such as links, captions, buttons and headings. Did you know you also have the option to add a background image to your site? And you can of course remove it in one click by clicking Reset. Next, we move on to Shadows. A drop shadow is a great design element for various pieces of content and combinations of content. Below this section, you can edit default styles or create custom shadows. Once you’ve made the customizations, you can name them appropriately. Lastly, we will look at Layout. The layout section allows you to change the content width for the main content area on your site, as well as padding and block spacing. If you’re not satisfied with the change, you can use the revision history feature to restore your site to a previous version or to reset it to the default settings.
+### Style Book
+Finally, let’s briefly touch on the Style Book. In one of our previous lessons, we explored how we can use the Style Book as a style guide. So let’s click on the eye icon to open our Style Book. As a reminder, the Style Book is a preview of the design decisions you make in the styles section. The Style panel is where you define your design and the Style Book is where you can see those designs applied across various site elements. To put it differently, it is a visual preview of how your style changes affect various elements and blocks across your site. It’s particularly useful when your homepage doesn’t display all the design elements or blocks yet. You can also customize individual blocks, which allows you for more detailed control over your site’s design.
 ### Conclusion
-WordPress allows you to leverage a variety of blocks when crafting innovative designs and expressing your creative skills. Start designing with the open-source platform that powers more than 40% of the web.
-## WordPress Playground
-Start exploring WordPress in one click. WordPress Playground is the platform that lets you run WordPress instantly. It’s your place to build, experiment, test, and grow.
+In conclusion, the styles interface offers an intuitive and flexible way for you to personalize your site’s look and feel, and it also provides a user-friendly approach to design.
+## Practical
+Use WordPress Playground to test your knowledge.
+1. Find a suitable color palette and update the theme’s color palette: Base, Contrast, Accent 1, Accent 2, Accent 3, Accent 4, Accent 5, Accent 6.
+* Ensure you test how patterns display.
+* You could create custom color pallette as practiced in a previous lesson.
+2. Install a new font pair and update the text and heading fonts accordingly.
+* Headings: Oswald
+* Text: Lora
+3. Modify your site’s Font Size Presets.
+* Select the “**Typography**” option.
+* Click on “**Font size presets**” at the bottom.
+* Click on a predetermined font size such as small, medium, or large.
+* Type a value in the “**size**” box and choose the unit (px, em, rem, vh, or vw).
+* You can enable the “**Fluid typography**” option to scale the font size dynamically to fit the screen or viewport.
++ Optionally, enable the “**Custom fluid values**” option to set custom minimum and maximum values for the fluid font size.
+* Click the “**Save**” button to make your changes appear on the site.
+4. In the “Layout” section, change the content width of your site.
+5. Use Revision History:
+* Make a significant change to your site’s appearance
+* Use the revision history feature to revert to a previous version
 This is a preview lesson
 Register or sign in to take this lesson.
 [Take course](https://learn.wordpress.org/course/beginner-wordpress-designer/)
-[Sign in](https://login.wordpress.org/?redirect_to=https%3A%2F%2Flearn.wordpress.org%2Flesson%2Fwordpress-showcase-for-designers%2F&locale=en_US)
+[Sign in](https://login.wordpress.org/?redirect_to=https%3A%2F%2Flearn.wordpress.org%2Flesson%2Fcustomizing-theme-settings-colors-fonts-typography-and-layout%2F&locale=en_US)
 ## Suggestions
 Found a typo, grammar error or outdated screenshot? [Contact us](https://learn.wordpress.org/report-content-feedback/).

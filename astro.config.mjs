@@ -83,6 +83,11 @@ export default defineConfig({
           autogenerate: { directory: "themes" },
         },
         {
+          label: "Дизайн",
+          collapsed: true,
+          autogenerate: { directory: "design" },
+        },
+        {
           label: "Производительность",
           collapsed: true,
           autogenerate: { directory: "performance" },

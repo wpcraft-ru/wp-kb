@@ -25,6 +25,21 @@ description: "База знаний по WordPress на русском: уста
 - [Каталог AI-плагинов и инструментов](./ai/ai-plugins-and-tools) — Полный обзор AI-плагинов по категориям.
 - [Реальные примеры AI на WordPress](./ai/ai-real-world) — 20 сайтов, использующих AI в production.
 
+## Дизайн
+
+- [Дизайн в WordPress](./design/) — Полное руководство: Style Book, блочное мышление, композиция макетов, доступность, медиа-блоки.
+- [WordPress для дизайнеров](./design/wordpress-for-designers) — Обзор возможностей: Block Editor, Style Book, паттерны, Site Editor, плагины.
+- [Style Book: гид по дизайну](./design/style-book) — Цифровой style guide: как устроен, как использовать для визуального проектирования.
+- [Иерархия блочной темы](./design/block-theme-hierarchy) — Архитектура: блоки → паттерны → template parts → шаблоны → тема.
+- [Block-first мышление](./design/block-first-mindset) — Философия модульного дизайна: проектирование переиспользуемых компонентов.
+- [Site Editor для прототипирования](./design/site-editor-prototyping) — Почему проектировать прямо в редакторе сайта — эффективно.
+- [Доступность (a11y)](./design/accessibility) — WCAG 2.2 AA: цветовой контраст, типографика, навигация, alt text, плагины тестирования.
+- [Настройки темы](./design/theme-settings) — Цвета, шрифты, типографика и макет в Global Styles.
+- [Композиция макетов](./design/layout-composition) — Group, Row/Stack, Columns: построение структуры страницы.
+- [Отступы и размеры](./design/dimensions-spacing) — Padding, margin и block spacing: управление пространством.
+- [Медиа-блоки](./design/media-blocks) — Галерея, Media & Text, Cover: работа с изображениями и видео.
+- [Карусели и слайдеры](./design/carousel-slider) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
+
 ## Руководства
 
 - [Хостинг для WordPress: как выбрать](./how-to/wordpress-hosting/) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
