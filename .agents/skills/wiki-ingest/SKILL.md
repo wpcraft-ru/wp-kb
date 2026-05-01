@@ -5,7 +5,16 @@ description: Use when adding a new source (file or URL) into the WP Knowledge wi
 
 # Wiki Ingest
 
-Compile a new source into the persistent wiki.
+Compile a new source into the persistent wiki. **База знаний сфокусирована на WordPress open-source.** Источники с WordPress.com требуют адаптации.
+
+## WordPress.com → Open-Source Adaptation
+
+При ingest источников с wordpress.com/support:
+
+- **Адаптировать:** планы/цены → self-hosted стоимость; managed хостинг → самостоятельное управление; .com-фичи → opensource-аналоги
+- **Пометить .com-only:** AI Website Builder, Express Design Service, onboarding sessions — явно указать «⚠️ Только WordPress.com»
+- **Сохранять:** концепции WordPress, плагины/темы из .org, технические руководства, WooCommerce
+- **Уточнять через web_search:** если не уверен в opensource-эквиваленте
 
 ## Pre-condition
 
@@ -19,7 +28,8 @@ Compile a new source into the persistent wiki.
 ## Process
 
 1. Read the source fully.
-2. Present key takeaways to user before writing:
+2. **Adapt .com → open-source** — если источник с WordPress.com, адаптируй контент (см. секцию выше). Используй web_search для уточнения opensource-эквивалентов.
+3. Present key takeaways to user before writing:
 - 3-5 main points.
 - What to emphasize/de-emphasize.
 - Potential contradictions with existing pages.

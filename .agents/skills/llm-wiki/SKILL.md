@@ -38,6 +38,7 @@ raw/
 - Second level: `MMDD` (month + day, zero-padded)
 - Files: original filenames preserved
 - Never modify files under `raw/`
+- When fetching URLs for ingest, use `summarize "URL" --extract --format md` as the primary extraction tool (better image/media preservation than web_fetch)
 
 ## Routing Rules
 
@@ -70,6 +71,7 @@ These rules apply to all wiki-* skills:
 
 5. Content conventions:
 - Wiki content language is ru-RU.
+- **Focus is WordPress open-source** (WordPress.org / self-hosted). Sources from WordPress.com must be adapted: .com-specific features → open-source equivalents, .com-only features marked explicitly.
 - Every wiki page except `index.md` and `log.md` includes frontmatter with `title` and `description`.
 - Do NOT duplicate frontmatter `title` with an `# H1` heading — Starlight renders the title as H1. Start content from `##`.
 

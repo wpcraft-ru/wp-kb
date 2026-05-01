@@ -57,6 +57,36 @@ add_filter('the_content', function($content) {
 
 ## Operations
 
+### WordPress.com → Open-Source Adaptation
+
+**База знаний фокусируется на WordPress open-source (self-hosted WordPress.org).**
+
+Многие источники (особенно с wordpress.com/support) описывают платный сервис WordPress.com. При ingest таких материалов:
+
+**Что адаптировать:**
+- **Планы/цены WordPress.com** → заменить на информацию о стоимости self-hosted (хостинг, домен, SSL)
+- **Managed hosting (бэкапы, безопасность, обновления)** → отметить, что на self-hosted это делается самостоятельно или через плагины
+- **AI Website Builder, Express Design Service** → пометить как .com-only фичи, не имеющие прямого opensource-аналога
+- **Бесплатный поддомен .wordpress.com** → любой домен при self-hosted
+- **Happiness Engineers, 24/7 support** → форумы WordPress.org, саппорт хостинга, плагинов/тем
+- **Встроенные функции (Stats, Newsletter, Writing Prompts)** → предложить opensource-аналоги (плагины)
+- **Onboarding sessions** → пометить как .com-only
+
+**Что сохранять без изменений:**
+- Концепции WordPress (posts, pages, blocks, themes, plugins) — одинаковы для .com и .org
+- Информацию о плагинах и темах (если доступны в .org репозитории)
+- Технические руководства (CSS, PHP, WP-CLI, GitHub Deployments)
+- WooCommerce — работает одинаково
+
+**Адаптация через web_search:**
+Если не уверен в opensource-эквиваленте — используй `web_search` для уточнения. Например:
+- «WordPress open source alternative to Jetpack Stats»
+- «free WordPress plugin for automated backups»
+- «WordPress.org security best practices without managed hosting»
+
+**Маркировка .com-only:**
+Если функция существует только на WordPress.com — явно помечай: «⚠️ Только WordPress.com». Не удаляй информацию, но чётко обозначай границы применимости.
+
 ### Source Extraction
 
 When fetching a URL for ingest, use tools in priority order:
@@ -73,17 +103,18 @@ When asked to ingest a source:
 
 0. **Fetch the source** — use extraction tools above if URL, save to `raw/YYYY/MMDD/`
 1. **Read the source** from `raw/YYYY/MMDD/` or provided URL
-2. **Read `src/content/docs/index.md`** to understand current wiki structure
-3. **Discuss key takeaways** with the user before writing
-4. **Create/update pages** in the appropriate `src/content/docs/` subdirectory:
+2. **Adapt .com → open-source** — если источник с WordPress.com, адаптируй согласно правилам выше
+3. **Read `src/content/docs/index.md`** to understand current wiki structure
+4. **Discuss key takeaways** with the user before writing
+5. **Create/update pages** in the appropriate `src/content/docs/` subdirectory:
    - If it's a core concept → `core/`
    - If it's about a specific plugin → `plugins/`
    - If it's a code recipe → `snippets/`
    - If a new category is needed → propose it to the user
-5. **Update `src/content/docs/index.md`** — add entry with relative link + one-line summary
-6. **Append to `src/content/docs/log.md`**: `## [YYYY-MM-DD] ingest | Title`
-7. **Add cross-references** in related existing pages (links back to the new page)
-8. **Report**: list all files created/modified
+6. **Update `src/content/docs/index.md`** — add entry with relative link + one-line summary
+7. **Append to `src/content/docs/log.md`**: `## [YYYY-MM-DD] ingest | Title`
+8. **Add cross-references** in related existing pages (links back to the new page)
+9. **Report**: list all files created/modified
 
 A single source typically touches 5-15 wiki pages. Don't be lazy — update everything relevant.
 
@@ -157,6 +188,7 @@ All wiki skills must enforce:
 
 ## General Rules
 
+- **Focus:** База знаний про **WordPress open-source (WordPress.org / self-hosted)**. Материалы с WordPress.com адаптировать: заменять .com-специфичные фичи на opensource-аналоги, помечать .com-only функции.
 - **Language**: All wiki content in Russian (ru-RU)
 - **Tone**: Technical, точный, без воды
 - **Code examples**: Always include working PHP/JS code with explanations
