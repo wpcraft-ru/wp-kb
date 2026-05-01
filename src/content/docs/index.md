@@ -19,21 +19,27 @@ description: "База знаний по WordPress на русском: уста
 - [Хостинг для WordPress: как выбрать](./how-to/wordpress-hosting/) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
 - [Управление несколькими сайтами WordPress](./how-to/multiple-sites-management/) — Multisite, MainWP, переключение между сайтами, перенос доменов.
 - [Работа с разработчиком WordPress](./how-to/working-with-developer/) — Как безопасно добавить разработчика, управлять правами и удалить доступ после работы.
+- [Как изменить адрес сайта WordPress](./how-to/change-site-url/) — Смена URL сайта: через админку, WP-CLI, wp-config.php или базу данных.
 - [Мобильные приложения для WordPress](./how-to/mobile-apps/) — Jetpack-приложение и альтернативы для управления сайтом с телефона.
 
 ## FAQ
 
 - [Как вести базу знаний WordPress](./faq/knowledge-base-workflow/) — Практический шаблон страницы: структура, связи и рабочие примеры.
 - [WordPress.com vs WordPress.org: сравнение](./faq/wordpress-com-vs-org/) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
+- [cPanel и WordPress](./faq/cpanel-wordpress/) — Объяснение: на WordPress.com нет cPanel, на self-hosted cPanel — стандартный инструмент управления хостингом.
 
 ## Консоль / Админка
 
 - [Панель управления WordPress (`wp-admin`): базовая навигация](./console/wordpress-dashboard-wp-admin-basics/) — Практическая навигация по админке и безопасная работа команды.
 - [Admin Bar (панель инструментов WordPress)](./console/admin-bar/) — Элементы тулбара, настройка видимости и практические рецепты.
+- [Настройки обсуждения (комментарии)](./console/discussion-settings/) — Модерация, уведомления, аватары, антиспам-плагины для комментариев.
+- [Видимость сайта: управление приватностью](./console/privacy-settings/) — Как скрыть сайт от поисковиков или сделать приватным через плагины.
 
 ## Контент
 
 - [Страницы, записи, категории и теги: базовая модель контента](./content/pages-posts-and-taxonomies-basics/) — Как структурировать контент без дублирования и хаоса.
+- [Блочный редактор WordPress: добавление контента блоками](./content/wordpress-editor-blocks/) — Gutenberg: блоки, Site Title, Post Content, CSS-классы, сочетания клавиш.
+- [Меню в WordPress: создание, ссылки, выпадающие подменю](./content/menus/) — Как создать меню, добавить ссылки на страницы, сделать выпадающие подменю.
 
 ## Плагины
 
@@ -44,6 +50,12 @@ description: "База знаний по WordPress на русском: уста
 ## Темы
 
 - [Темы, child theme и Customizer: основы](./themes/themes-child-themes-customizer/) — Выбор тем, как создать child theme и работать с Customizer без потери изменений.
+- [Типы тем WordPress: block, classic, hybrid, universal](./themes/theme-types/) — Сравнение типов тем: какой редактор, кастомизация и для каких задач.
+- [Выбор и настройка темы](./themes/choose-and-setup-theme/) — Как найти, установить, активировать и настроить тему после активации.
+- [Site Editor: визуальное редактирование](./themes/site-editor/) — Редактирование шапки, подвала, шаблонов и стилей без кода.
+- [Шаблоны WordPress: создание, редактирование, удаление](./themes/templates/) — Управление шаблонами: просмотр, сброс, удаление пользовательских шаблонов.
+- [Customizer: полное руководство](./themes/customizer/) — Все секции: идентификация сайта, цвета, контент-опции, меню, виджеты.
+- [Кастомный CSS в WordPress](./themes/custom-css/) — Три способа добавить CSS: Customizer, child theme, Site Editor + классы блоков.
 - [Практики веб-дизайна для WordPress](./themes/design-best-practices/) — Планирование структуры, навигация, изображения, доступность, производительность.
 
 ## Безопасность

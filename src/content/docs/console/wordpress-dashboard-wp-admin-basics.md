@@ -52,5 +52,5 @@ document.addEventListener('DOMContentLoaded', () => {
 - [Admin Bar (панель инструментов WordPress)](../console/admin-bar)
 - [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
-- [Управление несколькими сайтами WordPress](../how-to/multiple-sites-management)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)- [Настройки обсуждения (комментарии)](../console/discussion-settings/)
+- [Видимость сайта: приватность](../console/privacy-settings/)- [Управление несколькими сайтами WordPress](../how-to/multiple-sites-management)

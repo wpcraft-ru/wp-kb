@@ -62,5 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 - [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
+- [Блочный редактор: контент блоками](../content/wordpress-editor-blocks/)
+- [Меню в WordPress](../content/menus/)
 - [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
 - [Как вести базу знаний WordPress](../faq/knowledge-base-workflow/)

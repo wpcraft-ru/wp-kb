@@ -76,7 +76,12 @@ if (window.wp && window.wp.customize) {
 
 ## Связанные страницы
 
+- [Типы тем WordPress](./theme-types/)
+- [Выбор и настройка темы](./choose-and-setup-theme/)
+- [Customizer: полное руководство](./customizer/)
+- [Site Editor: визуальное редактирование](./site-editor/)
+- [Шаблоны WordPress: создание, редактирование, удаление](./templates/)
+- [Кастомный CSS в WordPress](./custom-css/)
+- [Практики веб-дизайна для WordPress](./design-best-practices/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install/)
-- [Практики веб-дизайна для WordPress](./design-best-practices)
