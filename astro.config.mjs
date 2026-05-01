@@ -78,17 +78,12 @@ export default defineConfig({
           autogenerate: { directory: "themes" },
         },
         {
-          label: "Безопасность",
-          collapsed: true,
-          autogenerate: { directory: "security" },
-        },
-        {
           label: "Производительность",
           collapsed: true,
           autogenerate: { directory: "performance" },
         },
         {
-          label: "Сниппеты",
+          label: "Шпаргалки и сниппеты",
           collapsed: true,
           autogenerate: { directory: "snippets" },
         },
@@ -106,6 +101,11 @@ export default defineConfig({
           label: "Юридические составляющие",
           collapsed: true,
           autogenerate: { directory: "legal" },
+        },
+        {
+          label: "Безопасность",
+          collapsed: true,
+          autogenerate: { directory: "security" },
         },
       ],
 

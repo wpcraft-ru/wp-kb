@@ -64,6 +64,13 @@ add_filter('body_class', function ($classes) {
 - Добавляет CSS-класс к body на главной странице.
 - Позволяет писать стили под конкретный шаблон.
 
+## Связанные страницы
+
+- [Типы тем WordPress](./theme-types/)
+- [Выбор и настройка темы](./choose-and-setup-theme/)
+- [Меню в WordPress](../content/menus/)
+- [Кастомный CSS в WordPress](./custom-css/)
+
 ## Материалы и источники
 
 - [Design Best Practices — оригинальная статья](https://wordpress.com/support/design-best-practices/)

@@ -50,6 +50,8 @@ console.log(titleLengthHint('Как настроить WordPress для мало
 
 ## Связанные страницы
 
+- [Блочный редактор WordPress: добавление контента блоками](./wordpress-editor-blocks/)
+- [Меню в WordPress](./menus/)
 - [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
