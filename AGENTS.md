@@ -13,16 +13,16 @@ wp-knowledge/
 │       └── MMDD/              # Month + Day (e.g. 0501 = May 1)
 │           └── file.{md,pdf}  # Source files
 ├── src/content/docs/          # ★ WIKI PAGES — you write and maintain these
-│   ├── index.md               # Catalog of all pages (update on every ingest)
-│   ├── log.md                 # Chronological operations log (append on every operation)
-│   ├── how-to/                # Руководства (how-to guides)
-│   ├── faq/                   # FAQ и сравнения
 │   ├── plugins/               # Plugin-specific knowledge
 │   ├── themes/                # Theme development
 │   ├── security/              # Security best practices
 │   ├── performance/           # Performance optimization
 │   ├── snippets/              # Code snippets and recipes
-│   └── queries/               # Filed answers from user queries
+│   ├── queries/               # Filed answers from user queries
+│   ├── how-to/                # Руководства (how-to guides)
+│   ├── faq/                   # FAQ и сравнения
+│   ├── index.md               # Catalog of all pages (update on every ingest)
+│   └── log.md                 # Chronological operations log (append on every operation)
 ├── AGENTS.md                  # This file — wiki schema
 ├── astro.config.mjs           # Starlight + Algolia config
 └── package.json
@@ -176,6 +176,7 @@ When asked to update existing wiki content:
 These skills are available in this repository under `.agents/skills/`:
 
 - `llm-wiki` — umbrella/orchestrator for full LLM Wiki workflow in this repo
+- `summarize` — install and use the `summarize` CLI for web content extraction to Markdown
 - `wiki-init` — bootstrap/repair wiki structure and conventions
 - `wiki-ingest` — ingest source into pages + cross-links + index/log updates
 - `wiki-query` — answer strictly from wiki pages, optionally file to `queries/`
@@ -186,6 +187,7 @@ These skills are available in this repository under `.agents/skills/`:
 
 Use this mapping for task routing:
 
+- "install/setup/use summarize tool" → `summarize`
 - "initialize/fix wiki structure" → `wiki-init`
 - "ingest article/source" → `wiki-ingest`
 - "answer from wiki" → `wiki-query`

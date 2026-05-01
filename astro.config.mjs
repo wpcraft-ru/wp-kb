@@ -68,6 +68,11 @@ export default defineConfig({
           autogenerate: { directory: "console" },
         },
         {
+          label: "Искусственный интеллект",
+          collapsed: false,
+          autogenerate: { directory: "ai" },
+        },
+        {
           label: "Плагины",
           collapsed: true,
           autogenerate: { directory: "plugins" },
@@ -76,6 +81,11 @@ export default defineConfig({
           label: "Темы",
           collapsed: true,
           autogenerate: { directory: "themes" },
+        },
+        {
+          label: "Дизайн",
+          collapsed: true,
+          autogenerate: { directory: "design" },
         },
         {
           label: "Производительность",
