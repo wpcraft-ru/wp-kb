@@ -3,6 +3,52 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-01] ingest | Сервисы для WordPress (raw/2025/1105)
+
+Изучены 7 raw-файлов из `raw/2025/1105/` с обзором 41 сервиса в 7 категориях.
+
+**Созданы страницы:**
+- `components/services/cdn-performance.md` — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud
+- `components/services/seo-tools.md` — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat
+- `components/services/analytics.md` — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch
+- `components/services/email-marketing.md` — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot
+- `components/services/automation.md` — Albato, ApiMonster, Make, Zapier, n8n
+- `components/services/dev-tools.md` — GitHub, GitLab, Bitbucket, Gitea, VK Cloud
+- `components/services/marketing-cro.md` — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert
+
+**Обновлены:**
+- `components/services/index.md` — полный каталог с навигацией по 7 категориям
+- `components/index.md` — обновлена секция «Сервисы»
+- `index.md` — добавлены все 7 подразделов сервисов
+- `performance/optimization.md` — кросс-ссылка на `cdn-performance.md`
+
+## [2026-05-01] ingest | Домены и хостинг из raw/2025/1104
+
+Ingested 20 источников (en + ru) из `raw/2025/1104/` в разделы `components/domain` и `components/hosting`.
+
+**Созданы страницы:**
+- `components/domain/domain-registrars.md` — сравнение 10 международных + 3 российских регистраторов
+- `components/hosting/hosting-types.md` — 4 типа хостинга с плюсами/минусами/шпаргалкой
+- `components/hosting/hosting-criteria.md` — TTFB, uptime, технологии, безопасность, чек-лист
+- `components/hosting/hosting-providers.md` — 10 международных + 10 российских провайдеров с ценами
+
+**Обновлены страницы:**
+- `components/index.md`, `components/domain/index.md`, `components/hosting/index.md` — каталоги подразделов
+- `index.md` — раздел «Компоненты WordPress» с полным списком
+- `how-to/wordpress-hosting.md` — кросс-ссылки на новые страницы
+- `basics/domain-vs-hosting.md` — кросс-ссылки на новые страницы
+
+---
+
+## [2026-05-01] create: раздел Компоненты (components)
+
+Создан новый раздел `components/` с подразделами:
+- `components/domain/` — Домен
+- `components/hosting/` — Хостинг
+- `components/services/` — Сервисы
+
+Добавлены заглушки index.md во все подразделы. Раздел добавлен в каталог index.md.
+
 # Operations Log
 
 ## [2026-05-01] ingest | WooCommerce (raw/2025/1103)

@@ -12,6 +12,22 @@ description: "База знаний по WordPress на русском: уста
 - [Домен и хостинг: в чём разница](./basics/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Блог или сайт: что выбрать](./basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
 
+## Компоненты WordPress
+
+- [Компоненты WordPress](./components/index.md) — Домен, хостинг и сервисы — ключевые компоненты инфраструктуры сайта на WordPress.
+  - [Регистраторы доменов: сравнение](./components/domain/domain-registrars.md) — Международные и российские регистраторы, цены на .com и .ru, WHOIS Privacy, DNS.
+  - [Типы хостинга](./components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг: плюсы, минусы, для каких проектов.
+  - [Критерии выбора хостинга](./components/hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист.
+  - [Хостинг-провайдеры: сравнение](./components/hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
+  - [Сервисы для WordPress](./components/services/index.md) — Каталог из 41 сервиса: CDN, SEO, аналитика, email-маркетинг, автоматизация, dev-инструменты, CRO.
+    - [CDN и производительность](./components/services/cdn-performance.md) — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud.
+    - [SEO и ключевые слова](./components/services/seo-tools.md) — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat.
+    - [Аналитика и поведение](./components/services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
+    - [Email-маркетинг](./components/services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
+    - [Автоматизация и интеграции](./components/services/automation.md) — Albato, ApiMonster, Make, Zapier, n8n.
+    - [Dev-инструменты](./components/services/dev-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
+    - [Маркетинг, CRO и лидогенерация](./components/services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.
+
 ## AI и WordPress
 
 - [AI и WordPress: обзор](./ai/index.md) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
