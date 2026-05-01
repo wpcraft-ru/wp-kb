@@ -30,3 +30,4 @@ pnpm-debug.log*
 !.vscode/launch.json
 local
 tmp
+Makefile
