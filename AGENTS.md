@@ -13,7 +13,8 @@ wp-knowledge/
 ├── src/content/docs/          # ★ WIKI PAGES — you write and maintain these
 │   ├── index.md               # Catalog of all pages (update on every ingest)
 │   ├── log.md                 # Chronological operations log (append on every operation)
-│   ├── core/                  # WordPress core concepts
+│   ├── how-to/                # Руководства (how-to guides)
+│   ├── faq/                   # FAQ и сравнения
 │   ├── plugins/               # Plugin-specific knowledge
 │   ├── themes/                # Theme development
 │   ├── security/              # Security best practices
@@ -119,7 +120,8 @@ When asked to ingest a source:
 3. **Read `src/content/docs/index.md`** to understand current wiki structure
 4. **Discuss key takeaways** with the user before writing
 5. **Create/update pages** in the appropriate `src/content/docs/` subdirectory:
-   - If it's a core concept → `core/`
+   - If it's a core concept → `how-to/`
+   - If it's a FAQ/comparison → `faq/`
    - If it's about a specific plugin → `plugins/`
    - If it's a code recipe → `snippets/`
    - If a new category is needed → propose it to the user

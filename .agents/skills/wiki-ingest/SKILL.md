@@ -42,7 +42,8 @@ Compile a new source into the persistent wiki. **База знаний сфок�
 
 ## Placement Heuristic
 
-- Core concepts -> `core/`
+- Core concepts -> `how-to/`
+- FAQ/comparisons -> `faq/`
 - Plugin-specific -> `plugins/`
 - Theme-specific -> `themes/`
 - Security -> `security/`
