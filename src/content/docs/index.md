@@ -70,8 +70,20 @@ description: "База знаний по WordPress на русском: уста
 ## Плагины
 
 - [Плагины WordPress: основы выбора и установки](./plugins/plugins-basics.md) — Как безопасно выбирать, устанавливать и управлять плагинами.
-- [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics.md) — Базовое руководство: темы, товары, оплата, доставка, налоги.
+- [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics.md) — Быстрый старт: темы, товары, оплата, доставка, налоги.
 - [Плагины членства (membership) для WordPress](./plugins/membership-plugins.md) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
+
+## WooCommerce
+
+- [WooCommerce: полное руководство](./woocommerce/index.md) — От установки до запуска магазина: товары, оплата, доставка, налоги, заказы и расширения.
+- [Установка и первые шаги](./woocommerce/getting-started.md) — 5 шагов: установка плагина, настройки, выбор темы.
+- [Товары WooCommerce](./woocommerce/products.md) — 6 встроенных типов товаров и расширения: подписки, бронирования, наборы.
+- [Приём платежей](./woocommerce/payments.md) — WooPayments, платёжные шлюзы, Apple Pay, Google Pay, fraud-защита.
+- [Налоги](./woocommerce/taxes.md) — Настройка налоговых ставок, автоматические налоги, НДС для ЕС.
+- [Доставка](./woocommerce/shipping.md) — Зоны, методы (flat rate, бесплатная, самовывоз), классы доставки.
+- [Страницы магазина](./woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
+- [Управление заказами](./woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
+- [Запуск и расширение](./woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
 
 ## Темы
 
