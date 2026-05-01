@@ -81,6 +81,7 @@ These rules apply to all wiki-* skills:
 - Every wiki page except `index.md` and `log.md` includes frontmatter with `title` and `description`.
 - Do NOT duplicate frontmatter `title` with an `# H1` heading — Starlight renders the title as H1. Start content from `##`.
 - **«Материалы и источники»:** every page ends with links to original URL(s).
+- **Ссылки всегда с `.md`:** все относительные ссылки на wiki-страницы пишутся с расширением `.md` (напр. `[text](./page.md)`, `[dir](./category/index.md)`). НИКОГДА без `.md` или с `/` в конце. Плагин `remarkStripMdLinks` сам уберёт расширения при сборке.
 
 ## Specialized Skills
 
