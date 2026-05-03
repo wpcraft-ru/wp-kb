@@ -32,7 +32,7 @@ export default defineConfig({
           attrs: {
             rel: "icon",
             type: "image/png",
-            href: "/favicon.png",
+            href: "/kb/favicon.png",
           },
         },
         // Yandex.Metrika counter
