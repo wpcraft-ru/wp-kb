@@ -121,11 +121,12 @@ description: "База знаний по WordPress на русском: уста
 - [Кэширование WordPress](./performance/cache.md) — Виды кэширования: плагины, браузерный кэш, объектный кэш, серверный кэш — как выбрать и настроить.
 - [PHP-оптимизация для WordPress](./performance/php-optimization.md) — Настройка PHP: версии, php.ini, лимиты памяти, таймауты, размеры загрузок и замена WP-Cron.
 
-## Сниппеты
+## Шпаргалки и чек-листы
 
-- [functions.php: базовые сниппеты](./snippets/functions-php-essentials.md) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
-- [WP_Query: рецепты запросов](./snippets/wp-query-recipes.md) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
-- [Хуки WordPress: шпаргалка](./snippets/hooks-cheatsheet.md) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
+- [functions.php: базовые сниппеты](./cheatsheet/functions-php-essentials.md) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
+- [WP_Query: рецепты запросов](./cheatsheet/wp-query-recipes.md) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
+- [Хуки WordPress: шпаргалка](./cheatsheet/hooks-cheatsheet.md) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
+- [Чек-лист запуска в продакшен](./cheatsheet/production-checklist.md) — Операционная готовность, безопасность, надёжность, производительность и расходы перед запуском.
 
 ## Юридические требования
 

@@ -17,7 +17,7 @@ wp-knowledge/
 │   ├── themes/                # Theme development
 │   ├── security/              # Security best practices
 │   ├── performance/           # Performance optimization
-│   ├── snippets/              # Code snippets and recipes
+│   ├── cheatsheet/            # Code cheatsheets and launch checklists
 │   ├── queries/               # Filed answers from user queries
 │   ├── how-to/                # Руководства (how-to guides)
 │   ├── faq/                   # FAQ и сравнения
@@ -125,7 +125,7 @@ When asked to ingest a source:
    - If it's a core concept → `how-to/`
    - If it's a FAQ/comparison → `faq/`
    - If it's about a specific plugin → `plugins/`
-   - If it's a code recipe → `snippets/`
+   - If it's a code recipe → `cheatsheet/`
    - If a new category is needed → propose it to the user
    - **Every page must include «Материалы и источники»** at the bottom: link to original URL(s)
 6. **Update `src/content/docs/index.md`** — add entry with relative link + one-line summary

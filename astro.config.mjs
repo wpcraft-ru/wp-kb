@@ -134,9 +134,9 @@ export default defineConfig({
           autogenerate: { directory: "performance" },
         },
         {
-          label: "Шпаргалки и сниппеты",
+          label: "Шпаргалки и чек-листы",
           collapsed: true,
-          autogenerate: { directory: "snippets" },
+          autogenerate: { directory: "cheatsheet" },
         },
         {
           label: "Руководства",

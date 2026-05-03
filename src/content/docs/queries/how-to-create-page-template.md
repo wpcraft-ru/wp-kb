@@ -52,7 +52,7 @@ get_footer();
 **Что есть в вики по теме:**
 - [Child theme: создание](../themes/themes-child-themes-customizer.md) — структура папки, style.css, functions.php
 - [Типы тем](../themes/theme-types.md) — разница PHP и HTML-шаблонов
-- [functions.php сниппеты](../snippets/functions-php-essentials.md) — подключение стилей/скриптов
+- [functions.php сниппеты](../cheatsheet/functions-php-essentials.md) — подключение стилей/скриптов
 
 Но **нигде нет инструкции** по созданию PHP page template.
 
@@ -76,4 +76,4 @@ get_footer();
 - [Site Editor: визуальное редактирование](../themes/site-editor.md)
 - [Темы, child theme и Customizer](../themes/themes-child-themes-customizer.md)
 - [Типы тем WordPress](../themes/theme-types.md)
-- [functions.php: базовые сниппеты](../snippets/functions-php-essentials.md)
+- [functions.php: базовые сниппеты](../cheatsheet/functions-php-essentials.md)

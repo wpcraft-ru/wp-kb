@@ -3,6 +3,13 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-03] update | snippets → cheatsheet + production-checklist
+
+- Директория `snippets/` переименована в `cheatsheet/` (3 файла: functions-php-essentials, hooks-cheatsheet, wp-query-recipes)
+- Обновлены ссылки в `AGENTS.md`, `index.md`, `README.md`, `queries/how-to-create-page-template.md`
+- Создана страница `cheatsheet/production-checklist.md` — чек-лист запуска WordPress в продакшен (адаптирован из Vercel Production Checklist, raw/2026/0503/)
+- Секция «Сниппеты» в `index.md` и `README.md` переименована в «Шпаргалки и чек-листы»
+
 ## [2026-05-01] update | Перенос domain-vs-hosting в FAQ
 
 Страница «Домен и хостинг: в чём разница» перенесена из `basics/` в `faq/` — лучше соответствует формату FAQ.
