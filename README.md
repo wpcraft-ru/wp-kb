@@ -1,6 +1,7 @@
 # База знаний про сайты WordPress & магазины WooCommerce
 
 > 🔍 **Поиск по базе знаний: [wpcraft.ru/kb](https://wpcraft.ru/kb/)**
+> 🔍 **ИИ ассистент: [wpcraft.ru/bot](https://wpcraft.ru/bot-wordpress-woocommerce)**
 
 - 🧑‍🤝‍🧑 **Community-driven** — пополняется сообществом
 - 🤖 **Обновление через AI** — автоматическое добавление, синтез и интеграция новых материалов
@@ -24,6 +25,7 @@
   - [Хостинг-провайдеры: сравнение](src/content/docs/components/hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
   - [Сервисы для WordPress](src/content/docs/components/services/index.md) — Каталог из 41 сервиса: CDN, SEO, аналитика, email-маркетинг, автоматизация, dev-инструменты, CRO.
     - [CDN и производительность](src/content/docs/components/services/cdn-performance.md) — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud.
+    - [S3-провайдеры для WordPress](src/content/docs/components/services/s3-providers.md) — Объектные хранилища: зачем, архитектура, концепции, Yandex, Selectel, VK Cloud, AWS S3, Cloudflare R2, MinIO — цены, классы, сравнение.
     - [SEO и ключевые слова](src/content/docs/components/services/seo-tools.md) — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat.
     - [Аналитика и поведение](src/content/docs/components/services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
     - [Email-маркетинг](src/content/docs/components/services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
@@ -64,6 +66,7 @@
 - [Управление несколькими сайтами WordPress](src/content/docs/how-to/multiple-sites-management.md) — Multisite, MainWP, переключение между сайтами, перенос доменов.
 - [Работа с разработчиком WordPress](src/content/docs/how-to/working-with-developer.md) — Как безопасно добавить разработчика, управлять правами и удалить доступ после работы.
 - [Как изменить адрес сайта WordPress](src/content/docs/how-to/change-site-url.md) — Смена URL сайта: через админку, WP-CLI, wp-config.php или базу данных.
+- [Настройка S3-хранилища для WordPress](src/content/docs/how-to/s3-setup-wordpress.md) — Пошаговое руководство: выбор провайдера, бакет, IAM, плагин, миграция, CDN, проверка.
 - [Мобильные приложения для WordPress](src/content/docs/how-to/mobile-apps.md) — Jetpack-приложение и альтернативы для управления сайтом с телефона.
 
 ### FAQ
@@ -89,8 +92,10 @@
 ### Плагины
 
 - [Плагины WordPress: основы выбора и установки](src/content/docs/plugins/plugins-basics.md) — Как безопасно выбирать, устанавливать и управлять плагинами.
+- [SEO-плагины WordPress: сравнение и выбор](src/content/docs/plugins/seo-plugins.md) — The SEO Framework, Rank Math, Yoast SEO, AIOSEO, SEOPress — функции, цены, производительность, Site Kit for Yandex.
 - [WooCommerce: основы настройки интернет-магазина](src/content/docs/plugins/woocommerce-basics.md) — Быстрый старт: темы, товары, оплата, доставка, налоги.
 - [Плагины членства (membership) для WordPress](src/content/docs/plugins/membership-plugins.md) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
+- [Плагины для S3-хранилищ WordPress](src/content/docs/plugins/s3-plugins.md) — Полное сравнение и гайды: S3 Uploads (Human Made), WP Offload Media (установка, CDN, CloudFront), Media Cloud, Next3 Offload, Infinite Uploads.
 
 ### WooCommerce
 

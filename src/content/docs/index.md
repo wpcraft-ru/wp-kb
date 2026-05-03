@@ -87,6 +87,7 @@ description: "База знаний по WordPress на русском: уста
 ## Плагины
 
 - [Плагины WordPress: основы выбора и установки](./plugins/plugins-basics.md) — Как безопасно выбирать, устанавливать и управлять плагинами.
+- [SEO-плагины WordPress: сравнение и выбор](./plugins/seo-plugins.md) — The SEO Framework, Rank Math, Yoast SEO, AIOSEO, SEOPress — функции, цены, производительность, Site Kit for Yandex.
 - [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics.md) — Быстрый старт: темы, товары, оплата, доставка, налоги.
 - [Плагины членства (membership) для WordPress](./plugins/membership-plugins.md) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
 - [Плагины для S3-хранилищ WordPress](./plugins/s3-plugins.md) — Полное сравнение и гайды: S3 Uploads (Human Made), WP Offload Media (установка, CDN, CloudFront), Media Cloud, Next3 Offload, Infinite Uploads.

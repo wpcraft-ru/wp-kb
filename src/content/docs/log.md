@@ -3,6 +3,17 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-03] ingest | SEO-плагины WordPress — сравнение и выбор
+
+Создана страница `plugins/seo-plugins.md` на основе материалов `raw/2025/1106/` (10 файлов).
+
+**Создано:**
+- `plugins/seo-plugins.md` — полное сравнение 5 SEO-плагинов + Site Kit for Yandex
+
+**Обновлены кросс-ссылки:**
+- `plugins/plugins-basics.md` — добавлена ссылка на seo-plugins.md
+- `components/services/seo-tools.md` — добавлена ссылка на seo-plugins.md
+
 ## [2026-05-03] update | Переименование s3-storage → s3-plugins + вливание wp-offload-media
 
 `plugins/s3-storage.md` → `plugins/s3-plugins.md`. `plugins/wp-offload-media.md` влит в s3-plugins.md (нарушал MECE — был отдельной страницей для одного плагина, тогда как основная страница тоже про плагины).
