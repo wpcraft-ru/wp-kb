@@ -15,6 +15,10 @@ description: "Домен, хостинг и сервисы — ключевые 
 - [Критерии выбора хостинга](./hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист оценки.
 - [Хостинг-провайдеры: сравнение](./hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
 
+### Infrastructure as Code (IaC)
+
+- [Infrastructure as Code для WordPress](./hosting/iac-wordpress.md) — Terraform, Pulumi, Ansible, Docker, Kubernetes: обзор инструментов, архитектур и российских облаков.
+
 ### Сервисы
 
 - [Сервисы для WordPress](./services/index.md) — Каталог из 41 сервиса: CDN, SEO, аналитика, email-маркетинг, автоматизация, dev-инструменты, CRO.

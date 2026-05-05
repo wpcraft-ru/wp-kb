@@ -3,6 +3,30 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-05] ingest | Infrastructure as Code, Design as Code, Marketing as Code
+
+Обработано 40+ источников из `raw/2026/0402/` по трём направлениям.
+
+**Создано в `components/hosting/` (Infrastructure as Code):**
+- `components/hosting/iac-wordpress.md` — IaC-обзор: Terraform (AWS-схема тезисно), Pulumi, Ansible, Docker, Kubernetes, российские облака
+- `components/hosting/docker-wordpress.md` — Docker Compose для локальной разработки и продакшена
+- `components/hosting/cicd-github-actions.md` — CI/CD с GitHub Actions
+
+**Создано в `design/` (Design as Code):**
+- `design/design-systems.md` — Дизайн-системы в WordPress: Atomic Design, Figma → theme.json
+- `design/design-tokens.md` — Design Tokens в theme.json: custom-секция, CSS-переменные, W3C DTCG
+- `design/figma-to-wordpress.md` — Пайплайн Figma → WordPress: Tokens Studio, vip-design-system-bridge, Style Dictionary
+
+**Создано в `marketing/` (Marketing as Code):**
+- `marketing/marketing-as-code.md` — Marketing as Code: концепция, objectives & guardrails, AI-агенты
+- `marketing/wordpress-marketing-automation.md` — Автоматизация в WordPress: Uncanny Automator, FluentCRM
+- `marketing/claude-code-for-marketers.md` — Claude Code, Skills и AI-инструменты для маркетологов
+
+**Кросс-ссылки обновлены в:** `design/design-md.md`, `design/theme-settings.md`, `design/index.md`, `marketing/index.md`, `ai/index.md`, `components/index.md`, `components/hosting/hosting-types.md`
+
+**Синхронизация:**
+- `index.md` — разделы «Infrastructure as Code», «Дизайн-системы и Design as Code», «Marketing as Code и AI-автоматизация»
+
 ## [2026-05-05] ingest | Раздел «Интернет-маркетинг»
 
 Обработано 18 источников из `raw/2026/0401/` по темам: интернет-маркетинг, SEO, контент-маркетинг, PPC/CPC, CPA, AEO/GEO.

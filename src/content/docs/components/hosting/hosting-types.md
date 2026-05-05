@@ -147,5 +147,6 @@ description: "Shared, VPS, облачный и managed WordPress-хостинг:
 
 - [Критерии выбора хостинга](./hosting-criteria.md) — метрики и чек-лист оценки
 - [Хостинг-провайдеры: сравнение](./hosting-providers.md) — конкретные провайдеры с ценами
+- [Infrastructure as Code для WordPress](./iac-wordpress.md) — Terraform, Pulumi, Ansible для автоматизации инфраструктуры
 - [Хостинг для WordPress: как выбрать](../../how-to/wordpress-hosting.md) — быстрый обзор для новичков
 - [Домен и хостинг: в чём разница](../../faq/domain-vs-hosting.md) — базовое объяснение

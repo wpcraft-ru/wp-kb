@@ -255,6 +255,9 @@ add_action('wp_enqueue_scripts', function () {
 ## Связанные страницы
 
 - [Tailwind CSS и daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md)
+- [Дизайн-системы в WordPress](./design-systems.md)
+- [Design Tokens в theme.json](./design-tokens.md)
+- [Figma → WordPress: мост через Design Tokens](./figma-to-wordpress.md)
 - [Настройки темы: цвета, шрифты, типографика, макет](./theme-settings.md)
 - [Кастомный CSS в WordPress](../themes/custom-css.md)
 

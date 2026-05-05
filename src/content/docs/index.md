@@ -18,6 +18,10 @@ description: "База знаний по WordPress на русском: уста
   - [Типы хостинга](./components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг: плюсы, минусы, для каких проектов.
   - [Критерии выбора хостинга](./components/hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист.
   - [Хостинг-провайдеры: сравнение](./components/hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
+  - **Infrastructure as Code:**
+    - [IaC для WordPress](./components/hosting/iac-wordpress.md) — Terraform, Pulumi, Ansible, Docker, Kubernetes: обзор инструментов и архитектур.
+    - [Docker для WordPress](./components/hosting/docker-wordpress.md) — Локальная разработка и продакшен: Nginx, PHP-FPM, MySQL, Redis, HTTPS.
+    - [CI/CD: GitHub Actions](./components/hosting/cicd-github-actions.md) — Автоматизация тестирования и деплоя без FTP.
   - [Сервисы для WordPress](./components/services/index.md) — Каталог из 41 сервиса: CDN, SEO, аналитика, email-маркетинг, автоматизация, dev-инструменты, CRO.
     - [CDN и производительность](./components/services/cdn-performance.md) — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud.
     - [S3-провайдеры для WordPress](./components/services/s3-providers.md) — Объектные хранилища: зачем, архитектура, концепции, Yandex, Selectel, VK Cloud, AWS S3, Cloudflare R2, MinIO — цены, классы, сравнение.

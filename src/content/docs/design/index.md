@@ -12,7 +12,13 @@ description: "Полное руководство по дизайну сайто
 - [Иерархия блочной темы](./block-theme-hierarchy.md) — Как устроена блочная тема: от блоков до шаблонов.
 - [Block-first мышление](./block-first-mindset.md) — Философия модульного дизайна: проектирование переиспользуемых компонентов.
 
-### Практики веб-дизайна
+### Дизайн-системы и Design as Code
+
+- [Дизайн-системы в WordPress](./design-systems.md) — Atomic Design, компонентный подход, от Figma до theme.json.
+- [Design Tokens в theme.json](./design-tokens.md) — Хранение и использование дизайн-токенов: custom-секция, CSS-переменные, цветовая палитра, типографика, spacing.
+- [Figma → WordPress: мост через Design Tokens](./figma-to-wordpress.md) — Пайплайн синхронизации: Tokens Studio → vip-design-system-bridge → theme.json.
+
+### Инструменты и интеграции
 
 - [DESIGN.md для WordPress](./design-md.md) — Контракт дизайна для AI-агентов и синхронизация с theme.json, Tailwind и daisyUI.
 - [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md) — Интеграция utility-first и компонентного слоя с block theme и theme.json.
