@@ -3,6 +3,24 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-05] ingest | Раздел «Интернет-маркетинг»
+
+Обработано 18 источников из `raw/2026/0401/` по темам: интернет-маркетинг, SEO, контент-маркетинг, PPC/CPC, CPA, AEO/GEO.
+
+**Создан новый раздел `marketing/`:**
+- `marketing/index.md` — Обзор всех подвидов: SEO, контент-маркетинг, PPC/CPC, CPA, email-маркетинг, SMM, AEO/GEO, модели оплаты, воронка, связь с WordPress
+- `marketing/internet-marketing.md` — Определение, направления, модель 4P, преимущества, бизнес-модели, стратегия, метрики
+- `marketing/seo.md` — 5 типов SEO (On-Page, Off-Page, Local, International, Technical), алгоритмы Google и Яндекса, тренды 2026
+- `marketing/content-marketing.md` — Стратегия, форматы, каналы дистрибуции, пошаговый запуск, тренды 2026, метрики эффективности
+- `marketing/ppc-cpc.md` — PPC и CPC: разница, аукционы, оптимизация, площадки (Директ, Ads, VK, Telegram)
+- `marketing/cpa.md` — CPA-маркетинг: CPL, CPS, CPI, CPA-сети, выбор платформы
+- `marketing/aeo-geo.md` — AEO и GEO: оптимизация для AI-поиска (ChatGPT, Perplexity, Gemini), стратегии и техники
+
+**Кросс-ссылки:** страницы ссылаются на `plugins/seo-plugins.md`, `components/services/email-marketing.md`, `components/services/analytics.md`, `components/services/marketing-cro.md`
+
+**Синхронизация каталогов:**
+- `index.md` — добавлен раздел «Интернет-маркетинг»
+
 ## [2026-05-05] rename | dev-tools.md → dev-vcs-tools.md
 
 Файл `components/services/dev-tools.md` переименован в `components/services/dev-vcs-tools.md`. Обновлены ссылки в `index.md`, `components/index.md`, `components/services/index.md`, `README.md`, `log.md`.

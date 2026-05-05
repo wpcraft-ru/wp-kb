@@ -57,6 +57,16 @@ description: "База знаний по WordPress на русском: уста
 - [Медиа-блоки](./design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
 - [Карусели и слайдеры](./design/carousel-slider.md) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
 
+## Интернет-маркетинг
+
+- [Интернет-маркетинг](./marketing/index.md) — Обзор всех подвидов интернет-маркетинга: SEO, контент-маркетинг, PPC/CPC, CPA, AEO/GEO.
+  - [Определение и основы](./marketing/internet-marketing.md) — Что такое интернет-маркетинг, направления, модель 4P, преимущества, метрики.
+  - [SEO (поисковая оптимизация)](./marketing/seo.md) — Типы SEO, алгоритмы Google и Яндекса, тренды и ошибки 2026.
+  - [Контент-маркетинг](./marketing/content-marketing.md) — Стратегия, форматы, каналы, пошаговый запуск, метрики эффективности.
+  - [PPC и CPC](./marketing/ppc-cpc.md) — Реклама с оплатой за клик: модели, аукционы, оптимизация, формулы расчёта.
+  - [CPA-маркетинг](./marketing/cpa.md) — Модель оплаты за действие: виды офферов, CPA-сети, метрики.
+  - [AEO и GEO](./marketing/aeo-geo.md) — Оптимизация для AI-поиска: ChatGPT, Perplexity, Google AI Overviews.
+
 ## Руководства
 
 - [Хостинг для WordPress: как выбрать](./how-to/wordpress-hosting.md) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.

@@ -62,6 +62,16 @@
 - [Медиа-блоки](src/content/docs/design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
 - [Карусели и слайдеры](src/content/docs/design/carousel-slider.md) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
 
+### Интернет-маркетинг
+
+- [Интернет-маркетинг](src/content/docs/marketing/index.md) — Обзор всех подвидов интернет-маркетинга: SEO, контент-маркетинг, PPC/CPC, CPA, AEO/GEO.
+- [Определение и основы](src/content/docs/marketing/internet-marketing.md) — Что такое интернет-маркетинг, направления, модель 4P, преимущества, метрики.
+- [SEO (поисковая оптимизация)](src/content/docs/marketing/seo.md) — Типы SEO, алгоритмы Google и Яндекса, тренды и ошибки 2026.
+- [Контент-маркетинг](src/content/docs/marketing/content-marketing.md) — Стратегия, форматы, каналы, пошаговый запуск, метрики эффективности.
+- [PPC и CPC](src/content/docs/marketing/ppc-cpc.md) — Реклама с оплатой за клик: модели, аукционы, оптимизация, формулы расчёта.
+- [CPA-маркетинг](src/content/docs/marketing/cpa.md) — Модель оплаты за действие: виды офферов, CPA-сети, метрики.
+- [AEO и GEO](src/content/docs/marketing/aeo-geo.md) — Оптимизация для AI-поиска: ChatGPT, Perplexity, Google AI Overviews.
+
 ### Руководства
 
 - [Хостинг для WordPress: как выбрать](src/content/docs/how-to/wordpress-hosting.md) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.

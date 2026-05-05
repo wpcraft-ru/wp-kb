@@ -26,6 +26,95 @@ export default defineConfig({
     starlight({
       title: "База знаний WordPress",
       description: "Практическая база знаний по WordPress: установка, админка, темы, плагины, безопасность, производительность и готовые сниппеты на русском.",
+      sidebar: [
+        {
+          label: "Основы",
+          collapsed: false,
+          autogenerate: { directory: "basics" },
+        },
+        {
+          label: "Контент",
+          collapsed: false,
+          autogenerate: { directory: "content" },
+        },
+        {
+          label: "Консоль",
+          collapsed: true,
+          autogenerate: { directory: "console" },
+        },
+        {
+          label: "Искусственный интеллект",
+          collapsed: false,
+          autogenerate: { directory: "ai" },
+        },
+        {
+          label: "Плагины",
+          collapsed: true,
+          autogenerate: { directory: "plugins" },
+        },
+        {
+          label: "Темы",
+          collapsed: true,
+          autogenerate: { directory: "themes" },
+        },
+        {
+          label: "Дизайн",
+          collapsed: true,
+          autogenerate: { directory: "design" },
+        },
+        {
+          label: "WooCommerce",
+          collapsed: true,
+          autogenerate: { directory: "woocommerce" },
+        },
+        {
+          label: "Интернет-маркетинг",
+          collapsed: true,
+          autogenerate: { directory: "marketing" },
+        },
+        {
+          label: "Компоненты",
+          collapsed: true,
+          autogenerate: { directory: "components" },
+        },
+        {
+          label: "Производительность",
+          collapsed: true,
+          autogenerate: { directory: "performance" },
+        },
+        {
+          label: "Шпаргалки и чек-листы",
+          collapsed: true,
+          autogenerate: { directory: "cheatsheet" },
+        },
+        {
+          label: "Руководства",
+          collapsed: true,
+          autogenerate: { directory: "how-to" },
+        },
+        {
+          label: "FAQ",
+          collapsed: true,
+          autogenerate: { directory: "faq" },
+        },
+        {
+          label: "Юридические составляющие",
+          collapsed: true,
+          autogenerate: { directory: "legal" },
+        },
+        {
+          label: "QA",
+          collapsed: true,
+          autogenerate: { directory: "qa" },
+        },
+        {
+          label: "Безопасность",
+          collapsed: true,
+          autogenerate: { directory: "security" },
+        },
+      ],
+
+
       head: [
         // Favicon
         {
@@ -90,89 +179,6 @@ export default defineConfig({
           icon: 'external',
           label: 'Сайт WPCraft',
           href: 'https://wpcraft.ru/contacts',
-        },
-      ],
-
-      sidebar: [
-        {
-          label: "Основы",
-          collapsed: false,
-          autogenerate: { directory: "basics" },
-        },
-        {
-          label: "Контент",
-          collapsed: false,
-          autogenerate: { directory: "content" },
-        },
-        {
-          label: "Консоль",
-          collapsed: true,
-          autogenerate: { directory: "console" },
-        },
-        {
-          label: "Искусственный интеллект",
-          collapsed: false,
-          autogenerate: { directory: "ai" },
-        },
-        {
-          label: "Плагины",
-          collapsed: true,
-          autogenerate: { directory: "plugins" },
-        },
-        {
-          label: "Темы",
-          collapsed: true,
-          autogenerate: { directory: "themes" },
-        },
-        {
-          label: "Дизайн",
-          collapsed: true,
-          autogenerate: { directory: "design" },
-        },
-        {
-          label: "WooCommerce",
-          collapsed: true,
-          autogenerate: { directory: "woocommerce" },
-        },
-        {
-          label: "Компоненты",
-          collapsed: true,
-          autogenerate: { directory: "components" },
-        },
-        {
-          label: "Производительность",
-          collapsed: true,
-          autogenerate: { directory: "performance" },
-        },
-        {
-          label: "Шпаргалки и чек-листы",
-          collapsed: true,
-          autogenerate: { directory: "cheatsheet" },
-        },
-        {
-          label: "Руководства",
-          collapsed: true,
-          autogenerate: { directory: "how-to" },
-        },
-        {
-          label: "FAQ",
-          collapsed: true,
-          autogenerate: { directory: "faq" },
-        },
-        {
-          label: "Юридические составляющие",
-          collapsed: true,
-          autogenerate: { directory: "legal" },
-        },
-        {
-          label: "QA",
-          collapsed: true,
-          autogenerate: { directory: "qa" },
-        },
-        {
-          label: "Безопасность",
-          collapsed: true,
-          autogenerate: { directory: "security" },
         },
       ],
 
