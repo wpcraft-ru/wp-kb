@@ -257,7 +257,7 @@ add_action('wp_enqueue_scripts', function () {
 - [Tailwind CSS и daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md)
 - [Impeccable: AI-дизайн для WordPress](./impeccable.md) — open-source навык для AI-ассистентов, умеет генерировать DESIGN.md через `/impeccable document`.
 - [Дизайн-системы в WordPress](./design-systems.md)
-- [Design Tokens в theme.json](./design-tokens.md)
+- [theme.json — основа дизайн-системы WordPress и WooCommerce](./theme-json.md)
 - [Figma → WordPress: мост через Design Tokens](./figma-to-wordpress.md)
 - [Настройки темы: цвета, шрифты, типографика, макет](./theme-settings.md)
 - [Кастомный CSS в WordPress](../themes/custom-css.md)

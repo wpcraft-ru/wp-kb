@@ -3,6 +3,26 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-10] ingest | Лучшие темы для WooCommerce 2026
+- **Created:** `woocommerce/best-themes.md` — сравнительный обзор 15 тем: Blocksy (#1), Astra, Shoptimizer, Kadence, Botiga, GeneratePress, Storefront, Flatsome, WoodMart, XStore и др.
+- **Updated:** `woocommerce/index.md`, `index.md`, `README.md` — добавлены ссылки
+- **Sources:** CreativeThemes, WP Kube, Blogrecode, WPFactory, Purethemes, PluginTheme, WP-R, WP Rocket, Studio Wombat, CartFlows
+
+## [2026-05-10] update | border-radius-presets.md → theme-json.md (merged)
+- **Merged:** `design/border-radius-presets.md` → `design/theme-json.md` (новый раздел «Скругления (Border Radius)»)
+- **Deleted:** `design/border-radius-presets.md`
+- **Updated:** `design/index.md`, `index.md`, `design/theme-settings.md`, `README.md` — ссылки заменены на theme-json.md
+
+## [2026-05-10] update | design-tokens.md → theme-json.md (renamed, WooCommerce focus)
+- **Renamed:** `design/design-tokens.md` → `design/theme-json.md`
+- **Updated:** `design/index.md`, `index.md`, `design/theme-settings.md`, `design/design-md.md`, `design/border-radius-presets.md`, `README.md` — все ссылки обновлены
+- **New content:** WooCommerce-специфика (блоки, токены для магазина, lock down для товаров), интеграции с Figma/Tailwind/daisyUI/DESIGN.md
+
+## [2026-05-10] ingest | Border Radius Size Presets в WordPress 6.9
+- Источник: [WP Developer Blog](https://developer.wordpress.org/news/2025/09/border-radius-size-presets-in-wordpress-6-9/)
+- **Created:** `design/border-radius-presets.md`
+- **Updated:** `design/index.md`, `index.md`, `design/design-tokens.md` (cross-ref), `design/theme-settings.md` (cross-ref)
+
 ## [2026-05-10] ingest | Impeccable — AI-дизайн для WordPress
 
 Обработаны 3 источника из `raw/2026/0510/`: GitHub README, impeccable.style, обзоры сообщества.

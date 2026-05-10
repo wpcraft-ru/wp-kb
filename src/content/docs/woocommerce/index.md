@@ -19,6 +19,8 @@ WooCommerce — это opensource-плагин для WordPress, который 
 - [Страницы магазина](./store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
 - [Управление заказами](./orders.md) — Статусы заказов, возвраты, email-уведомления.
 - [Запуск и расширение](./launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
+- [Оптимизация производительности WooCommerce](./performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
+- [Лучшие темы для WooCommerce](./best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
 
 ## Что НЕ в этом разделе
 

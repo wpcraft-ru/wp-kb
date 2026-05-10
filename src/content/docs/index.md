@@ -57,6 +57,7 @@ description: "База знаний по WordPress на русском: уста
 - [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./design/tailwind-daisyui-wordpress.md) — Практическая интеграция Tailwind+daisyUI в block theme с синхронизацией через theme.json.
 - [DESIGN.md для WordPress](./design/design-md.md) — DESIGN.md как контракт дизайна для AI и связка с theme.json, Tailwind и daisyUI.
 - [Impeccable: AI-дизайн для WordPress](./design/impeccable.md) — Open-source навык для AI-ассистентов: 23 команды, детектор антипаттернов, генерация DESIGN.md.
+- [theme.json — основа дизайн-системы](./design/theme-json.md) — Единый конфиг для WordPress и WooCommerce: структура, design tokens, CSS-переменные, WooCommerce-блоки, lock down, border radius presets (WP 6.9+).
 - [Композиция макетов](./design/layout-composition.md) — Group, Row/Stack, Columns: построение структуры страницы.
 - [Отступы и размеры](./design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](./design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
@@ -121,6 +122,7 @@ description: "База знаний по WordPress на русском: уста
 - [Управление заказами](./woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
 - [Запуск и расширение](./woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
 - [Оптимизация производительности WooCommerce](./woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
+- [Лучшие темы для WooCommerce](./woocommerce/best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
 
 ## Темы
 

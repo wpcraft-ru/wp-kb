@@ -15,7 +15,7 @@ description: "Полное руководство по дизайну сайто
 ### Дизайн-системы и Design as Code
 
 - [Дизайн-системы в WordPress](./design-systems.md) — Atomic Design, компонентный подход, от Figma до theme.json.
-- [Design Tokens в theme.json](./design-tokens.md) — Хранение и использование дизайн-токенов: custom-секция, CSS-переменные, цветовая палитра, типографика, spacing.
+- [theme.json — основа дизайн-системы WordPress и WooCommerce](./theme-json.md) — Структура, design tokens, CSS-переменные, WooCommerce-специфика, lock down, интеграции, border radius presets (WP 6.9+).
 - [Figma → WordPress: мост через Design Tokens](./figma-to-wordpress.md) — Пайплайн синхронизации: Tokens Studio → vip-design-system-bridge → theme.json.
 
 ### Инструменты и интеграции

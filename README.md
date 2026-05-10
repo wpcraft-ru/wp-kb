@@ -58,6 +58,7 @@
 - [Tailwind CSS v4 + daisyUI в блочной теме WordPress](src/content/docs/design/tailwind-daisyui-wordpress.md) — Практическая интеграция Tailwind+daisyUI в block theme с синхронизацией через theme.json.
 - [DESIGN.md для WordPress](src/content/docs/design/design-md.md) — DESIGN.md как контракт дизайна для AI и связка с theme.json, Tailwind и daisyUI.
 - [Impeccable: AI-дизайн для WordPress](src/content/docs/design/impeccable.md) — Open-source навык для AI-ассистентов: 23 команды, детектор антипаттернов, генерация DESIGN.md.
+- [theme.json — основа дизайн-системы](src/content/docs/design/theme-json.md) — Единый конфиг для WordPress и WooCommerce: структура, design tokens, CSS-переменные, WooCommerce-блоки, lock down, border radius presets (WP 6.9+).
 - [Композиция макетов](src/content/docs/design/layout-composition.md) — Group, Row/Stack, Columns: построение структуры страницы.
 - [Отступы и размеры](src/content/docs/design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](src/content/docs/design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
@@ -121,6 +122,8 @@
 - [Страницы магазина](src/content/docs/woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
 - [Управление заказами](src/content/docs/woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
 - [Запуск и расширение](src/content/docs/woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
+- [Оптимизация производительности WooCommerce](src/content/docs/woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
+- [Лучшие темы для WooCommerce](src/content/docs/woocommerce/best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
 
 ### Темы
 
