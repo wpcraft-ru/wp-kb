@@ -255,6 +255,7 @@ add_action('wp_enqueue_scripts', function () {
 ## Связанные страницы
 
 - [Tailwind CSS и daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md)
+- [Impeccable: AI-дизайн для WordPress](./impeccable.md) — open-source навык для AI-ассистентов, умеет генерировать DESIGN.md через `/impeccable document`.
 - [Дизайн-системы в WordPress](./design-systems.md)
 - [Design Tokens в theme.json](./design-tokens.md)
 - [Figma → WordPress: мост через Design Tokens](./figma-to-wordpress.md)

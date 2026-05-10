@@ -107,6 +107,12 @@ wp_cache_delete('my_key', 'my_group');
 | Средний сайт на VPS | Плагин + OPcache + объектный кэш (Redis) |
 | Высоконагруженный проект | Varnish/Nginx FastCGI + Redis + CDN + OPcache |
 
+## Кэширование с WooCommerce
+
+WooCommerce требует особой настройки кэширования — корзина, чекаут и личный кабинет должны оставаться динамическими.
+
+Подробнее: [Кэширование в WooCommerce](./caching-woocommerce.md).
+
 ## Дополнительные материалы
 
 - [Core Caching Concepts in WordPress](https://www.tollmanz.com/core-caching-concepts-in-wordpress/)

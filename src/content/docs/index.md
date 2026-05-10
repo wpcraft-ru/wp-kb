@@ -56,6 +56,7 @@ description: "База знаний по WordPress на русском: уста
 - [Настройки темы](./design/theme-settings.md) — Цвета, шрифты, типографика и макет в Global Styles.
 - [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./design/tailwind-daisyui-wordpress.md) — Практическая интеграция Tailwind+daisyUI в block theme с синхронизацией через theme.json.
 - [DESIGN.md для WordPress](./design/design-md.md) — DESIGN.md как контракт дизайна для AI и связка с theme.json, Tailwind и daisyUI.
+- [Impeccable: AI-дизайн для WordPress](./design/impeccable.md) — Open-source навык для AI-ассистентов: 23 команды, детектор антипаттернов, генерация DESIGN.md.
 - [Композиция макетов](./design/layout-composition.md) — Group, Row/Stack, Columns: построение структуры страницы.
 - [Отступы и размеры](./design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](./design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
@@ -119,6 +120,7 @@ description: "База знаний по WordPress на русском: уста
 - [Страницы магазина](./woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
 - [Управление заказами](./woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
 - [Запуск и расширение](./woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
+- [Оптимизация производительности WooCommerce](./woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
 
 ## Темы
 
@@ -139,6 +141,7 @@ description: "База знаний по WordPress на русском: уста
 
 - [Оптимизация WordPress](./performance/optimization.md) — Комплексная оптимизация: хостинг, плагины, изображения, CDN, сжатие, база данных и масштабирование.
 - [Кэширование WordPress](./performance/cache.md) — Виды кэширования: плагины, браузерный кэш, объектный кэш, серверный кэш — как выбрать и настроить.
+- [Кэширование в WooCommerce](./performance/caching-woocommerce.md) — Настройка кэша для магазина: исключения, cookies, Varnish, популярные плагины.
 - [PHP-оптимизация для WordPress](./performance/php-optimization.md) — Настройка PHP: версии, php.ini, лимиты памяти, таймауты, размеры загрузок и замена WP-Cron.
 
 ## QA и тестирование

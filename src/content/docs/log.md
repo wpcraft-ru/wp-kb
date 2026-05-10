@@ -3,6 +3,21 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-10] ingest | Impeccable — AI-дизайн для WordPress
+
+Обработаны 3 источника из `raw/2026/0510/`: GitHub README, impeccable.style, обзоры сообщества.
+
+**Создано:**
+- `design/impeccable.md` — Обзор Impeccable: 23 команды, детектор антипаттернов, генерация DESIGN.md, связка с WordPress-темами.
+
+**Кросс-ссылки обновлены в:**
+- `design/index.md` — добавлена страница в раздел «Инструменты и интеграции»
+- `design/design-md.md` — добавлена ссылка на Impeccable как генератор DESIGN.md
+- `design/design-systems.md` — добавлена ссылка на `/impeccable extract` и `/impeccable polish`
+- `index.md` — добавлена запись в раздел «Дизайн»
+
+**Подтверждено без изменений:** `raw/2026/0509/` — все три источника уже покрыты страницами `performance/caching-woocommerce.md` и `woocommerce/performance-optimization.md`.
+
 ## [2026-05-05] ingest | Infrastructure as Code, Design as Code, Marketing as Code
 
 Обработано 40+ источников из `raw/2026/0402/` по трём направлениям.
@@ -572,3 +587,16 @@ Ingested 20 источников (en + ru) из `raw/2025/1104/` в раздел
 - Убран VK Cloud (не Git-хостинг), добавлены SourceCraft, GitVerse, GitFlic, Mos.Hub, Forgejo, GitRiver, OneDev
 - Структура: 3 сводных таблицы → российские → open-source → зарубежные → как выбрать
 - Акцент: российские платформы → open-source → мировые (как было запрошено)
+## [2026-05-09] ingest | Configuring Caching Plugins for WooCommerce
+- Source: https://developer.woocommerce.com/docs/best-practices/performance/configuring-caching-plugins/
+- Created: performance/caching-woocommerce.md
+- Updated: performance/cache.md (добавлена секция про WooCommerce)
+- Updated: index.md
+
+## [2026-05-09] ingest | Performance Best Practices & Optimization for WooCommerce
+- Sources:
+  - https://developer.woocommerce.com/docs/best-practices/performance/performance-best-practices/
+  - https://developer.woocommerce.com/docs/best-practices/performance/performance-optimization/
+- Created: woocommerce/performance-optimization.md (объединённая страница по обоим источникам)
+- Updated: index.md (добавлена страница в раздел WooCommerce)
+

@@ -57,6 +57,7 @@
 - [Настройки темы](src/content/docs/design/theme-settings.md) — Цвета, шрифты, типографика и макет в Global Styles.
 - [Tailwind CSS v4 + daisyUI в блочной теме WordPress](src/content/docs/design/tailwind-daisyui-wordpress.md) — Практическая интеграция Tailwind+daisyUI в block theme с синхронизацией через theme.json.
 - [DESIGN.md для WordPress](src/content/docs/design/design-md.md) — DESIGN.md как контракт дизайна для AI и связка с theme.json, Tailwind и daisyUI.
+- [Impeccable: AI-дизайн для WordPress](src/content/docs/design/impeccable.md) — Open-source навык для AI-ассистентов: 23 команды, детектор антипаттернов, генерация DESIGN.md.
 - [Композиция макетов](src/content/docs/design/layout-composition.md) — Group, Row/Stack, Columns: построение структуры страницы.
 - [Отступы и размеры](src/content/docs/design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](src/content/docs/design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
