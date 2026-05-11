@@ -29,12 +29,12 @@ export default defineConfig({
       sidebar: [
         {
           label: "Основы",
-          collapsed: false,
+          collapsed: true,
           autogenerate: { directory: "basics" },
         },
         {
           label: "Контент",
-          collapsed: false,
+          collapsed: true,
           autogenerate: { directory: "content" },
         },
         {
@@ -44,7 +44,7 @@ export default defineConfig({
         },
         {
           label: "Искусственный интеллект",
-          collapsed: false,
+          collapsed: true,
           autogenerate: { directory: "ai" },
         },
         {
