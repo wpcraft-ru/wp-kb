@@ -64,6 +64,16 @@ Group block (контейнер)
 
 ## Связанные страницы
 
+- [Паттерны (Block Patterns)](./patterns/index.md)
+- [Иерархия блочной темы](./block-theme-hierarchy.md)
+- [Дизайн-системы в WordPress](./design-systems.md)
+
+## Материалы и источники
+
+- [Designing with a block-first mindset (learn.wordpress.org)](https://learn.wordpress.org/lesson/designing-with-a-block-first-mindset/)
+
+## Связанные страницы
+
 - [Иерархия блочной темы](./block-theme-hierarchy.md)
 - [Композиция макетов](./layout-composition.md)
 - [Site Editor для прототипирования](./site-editor-prototyping.md)

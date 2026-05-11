@@ -63,6 +63,7 @@
 - [Отступы и размеры](src/content/docs/design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](src/content/docs/design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
 - [Карусели и слайдеры](src/content/docs/design/carousel-slider.md) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
+- [Паттерны (Block Patterns)](src/content/docs/design/patterns/index.md) — Полное руководство: регистрация, PHP, шаблоны, block type, стартовые паттерны, block locking, источники.
 
 ### Интернет-маркетинг
 

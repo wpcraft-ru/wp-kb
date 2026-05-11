@@ -7,7 +7,7 @@ description: "Полное руководство по дизайну сайто
 
 ### Основы дизайна в WordPress
 
-- [WordPress для дизайнеров](./wordpress-for-designers.md) — Обзор возможностей WordPress как дизайн-платформы: Block Editor, Style Book, паттерны, Site Editor.
+- [WordPress для дизайнеров](./wordpress-for-designers.md) — Обзор возможностей WordPress как дизайн-платформы: Block Editor, Style Book, Каталог паттернов, Site Editor.
 - [Style Book: гид по дизайну](./style-book.md) — Ключевой инструмент дизайнера для визуального проектирования без контента.
 - [Иерархия блочной темы](./block-theme-hierarchy.md) — Как устроена блочная тема: от блоков до шаблонов.
 - [Block-first мышление](./block-first-mindset.md) — Философия модульного дизайна: проектирование переиспользуемых компонентов.
@@ -33,6 +33,17 @@ description: "Полное руководство по дизайну сайто
 - [Отступы и размеры](./dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](./media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
 - [Карусели и слайдеры](./carousel-slider.md) — Создание слайдеров через плагины с учётом доступности.
+
+### Паттерны (Block Patterns)
+
+- [Паттерны: обзор](./patterns/index.md) — Что такое блочные паттерны, типы, иерархия, каталог подстраниц.
+- [Регистрация паттернов](./patterns/registering.md) — `/patterns`-директория, PHP-регистрация, file headers, категории, unregistering.
+- [PHP в паттернах](./patterns/php.md) — Интернационализация, динамические URL изображений, `foreach()`-циклы, ограничения `init`.
+- [Паттерны в шаблонах](./patterns/templates.md) — `<!-- wp:pattern -->`, DRY-принцип, практические примеры.
+- [Block Type Patterns](./patterns/block-type.md) — Привязка паттернов к конкретным блокам, Query Loop, Template Parts.
+- [Стартовые паттерны](./patterns/starter.md) — Страничные и шаблонные стартовые точки для пользователей темы.
+- [Block Locking и паттерны](./patterns/locking.md) — Курирование через запрет перемещения, удаления, content-only editing.
+- [Источники паттернов](./patterns/directory.md) — WordPress.org Patterns, TypeUI, Flowbite: каталоги готовых решений.
 
 ## Материалы и источники
 

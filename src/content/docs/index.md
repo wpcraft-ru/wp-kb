@@ -62,6 +62,7 @@ description: "База знаний по WordPress на русском: уста
 - [Отступы и размеры](./design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](./design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
 - [Карусели и слайдеры](./design/carousel-slider.md) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
+- [Паттерны (Block Patterns)](./design/patterns/index.md) — Полное руководство: регистрация, PHP, шаблоны, block type, стартовые паттерны, block locking, источники.
 
 ## Интернет-маркетинг
 

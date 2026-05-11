@@ -3,6 +3,34 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-11] ingest | Паттерны (Block Patterns) — Theme Handbook
+
+Обработаны 8 источников из `raw/2026/0511/`: полный раздел Patterns из Theme Handbook (developer.wordpress.org) + референсные каталоги.
+
+**Создан раздел `design/patterns/`:**
+- `design/patterns/index.md` — Введение: что такое паттерны, типы (synced/not synced), иерархия, каталог подстраниц
+- `design/patterns/registering.md` — Регистрация: `/patterns`-директория, PHP, file headers, категории, unregistering
+- `design/patterns/php.md` — PHP в паттернах: i18n, изображения, `foreach()`, ограничения `init`
+- `design/patterns/templates.md` — Паттерны в шаблонах: `<!-- wp:pattern -->`, DRY, примеры
+- `design/patterns/block-type.md` — Block Type Patterns: привязка к блокам, Query Loop, Template Parts
+- `design/patterns/starter.md` — Стартовые паттерны: страничные и шаблонные
+- `design/patterns/locking.md` — Block Locking: block-level, template-level, content-only editing
+- `design/patterns/directory.md` — Источники: WordPress.org Patterns, TypeUI, Flowbite
+
+**Обновлено:**
+- `design/index.md` — добавлен раздел «Паттерны (Block Patterns)»
+- `index.md` — добавлена запись в раздел «Дизайн»
+- `README.md` — синхронизировано оглавление
+
+**Кросс-ссылки добавлены в:**
+- `design/block-theme-hierarchy.md` — ссылка на patterns/index.md
+- `design/wordpress-for-designers.md` — ссылка на patterns/index.md
+- `design/block-first-mindset.md` — ссылка на patterns/index.md
+- `design/design-systems.md` — ссылка на patterns/index.md
+- `themes/templates.md` — ссылка на patterns/templates.md
+
+**Sources:** developer.wordpress.org (Theme Handbook: Patterns chapter), wordpress.org/patterns, typeui.sh, flowbite.com
+
 ## [2026-05-10] ingest | Лучшие темы для WooCommerce 2026
 - **Created:** `woocommerce/best-themes.md` — сравнительный обзор 15 тем: Blocksy (#1), Astra, Shoptimizer, Kadence, Botiga, GeneratePress, Storefront, Flatsome, WoodMart, XStore и др.
 - **Updated:** `woocommerce/index.md`, `index.md`, `README.md` — добавлены ссылки

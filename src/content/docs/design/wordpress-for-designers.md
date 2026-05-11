@@ -39,3 +39,4 @@ WordPress — это open-source платформа, которая работа
 - [Style Book: гид по дизайну](./style-book.md)
 - [Block-first мышление](./block-first-mindset.md)
 - [Медиа-блоки](./media-blocks.md)
+- [Паттерны (Block Patterns)](./patterns/index.md)
